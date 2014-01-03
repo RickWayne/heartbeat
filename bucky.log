@@ -1,0 +1,2014 @@
+2013-10-30 02:24:46 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-30 02:24:46 Querying server for next scheduled event.
+2013-10-30 02:24:46 Node Name: MOLLYSOILS
+2013-10-30 02:24:46 Session established with server BUCKY6: AIX
+2013-10-30 02:24:46   Server Version 6, Release 2, Level 4.0
+2013-10-30 02:24:46   Server date/time: 2013-10-30 15:36:07  Last access: 2013-10-30 11:33:47
+
+2013-10-30 02:24:46 --- SCHEDULEREC QUERY BEGIN
+2013-10-30 02:24:46 --- SCHEDULEREC QUERY END
+2013-10-30 02:24:46 Next operation scheduled:
+2013-10-30 02:24:46 ------------------------------------------------------------
+2013-10-30 02:24:46 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-30 02:24:46 Action:                Incremental
+2013-10-30 02:24:46 Objects:               
+2013-10-30 02:24:46 Options:               
+2013-10-30 02:24:46 Server Window Start:   22:30:00 on 2013-10-30
+2013-10-30 02:24:46 ------------------------------------------------------------
+2013-10-30 02:24:46 Schedule will be refreshed in 4 hours.
+2013-10-30 06:24:46 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-30 06:24:46 Querying server for next scheduled event.
+2013-10-30 06:24:46 Node Name: MOLLYSOILS
+2013-10-30 06:24:46 Session established with server BUCKY6: AIX
+2013-10-30 06:24:46   Server Version 6, Release 2, Level 4.0
+2013-10-30 06:24:46   Server date/time: 2013-10-30 19:38:26  Last access: 2013-10-30 15:36:07
+
+2013-10-30 06:24:46 --- SCHEDULEREC QUERY BEGIN
+2013-10-30 06:24:46 --- SCHEDULEREC QUERY END
+2013-10-30 06:24:46 Next operation scheduled:
+2013-10-30 06:24:46 ------------------------------------------------------------
+2013-10-30 06:24:46 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-30 06:24:46 Action:                Incremental
+2013-10-30 06:24:46 Objects:               
+2013-10-30 06:24:46 Options:               
+2013-10-30 06:24:46 Server Window Start:   22:30:00 on 2013-10-30
+2013-10-30 06:24:46 ------------------------------------------------------------
+2013-10-30 06:24:46 Command will be executed in 3 hours and 1 minute.
+2013-10-30 09:25:46 
+Executing scheduled command now.
+2013-10-30 09:25:46 Node Name: MOLLYSOILS
+2013-10-30 09:25:46 Session established with server BUCKY6: AIX
+2013-10-30 09:25:46   Server Version 6, Release 2, Level 4.0
+2013-10-30 09:25:46   Server date/time: 2013-10-30 22:41:04  Last access: 2013-10-30 19:38:26
+
+2013-10-30 09:25:46 --- SCHEDULEREC OBJECT BEGIN NIGHTLY-PRODUCTION-BACKUPS 2013-10-30 22:30:00
+2013-10-30 09:25:46 Incremental backup of volume '/'
+2013-10-30 09:26:25 ANS1898I ***** Processed     2,000 files *****
+2013-10-30 09:26:26 ANS1898I ***** Processed     7,000 files *****
+2013-10-30 09:26:27 ANS1898I ***** Processed    13,000 files *****
+2013-10-30 09:26:28 ANS1898I ***** Processed    19,000 files *****
+2013-10-30 09:26:29 ANS1898I ***** Processed    25,500 files *****
+2013-10-30 09:26:30 ANS1898I ***** Processed    29,500 files *****
+2013-10-30 09:26:55 ANS1898I ***** Processed    38,000 files *****
+2013-10-30 09:26:56 ANS1898I ***** Processed    48,500 files *****
+2013-10-30 09:26:57 ANS1898I ***** Processed    58,000 files *****
+2013-10-30 09:26:58 ANS1898I ***** Processed    69,500 files *****
+2013-10-30 09:26:59 ANS1898I ***** Processed    75,500 files *****
+2013-10-30 09:27:20 ANS1898I ***** Processed    79,000 files *****
+2013-10-30 09:27:21 ANS1898I ***** Processed    85,000 files *****
+2013-10-30 09:27:22 ANS1898I ***** Processed    92,500 files *****
+2013-10-30 09:27:23 ANS1898I ***** Processed    97,500 files *****
+2013-10-30 09:27:24 ANS1898I ***** Processed   103,000 files *****
+2013-10-30 09:27:58 ANS1898I ***** Processed   103,500 files *****
+2013-10-30 09:28:33 ANS1898I ***** Processed   111,000 files *****
+2013-10-30 09:28:34 ANS1898I ***** Processed   115,500 files *****
+2013-10-30 09:28:35 ANS1898I ***** Processed   120,000 files *****
+2013-10-30 09:28:35 Directory-->               4,096 / [Sent]      
+2013-10-30 09:28:35 Normal File-->               139 /opt/tivoli/tsm/client/ba/bin/tsmstats.ini [Sent]      
+2013-10-30 09:28:35 Normal File-->             1,195 /var/lib/logrotate/status [Sent]      
+2013-10-30 09:28:35 Normal File-->         3,673,483 /var/lib/mlocate/mlocate.db [Sent]      
+2013-10-30 09:28:49 Normal File-->        48,308,344 /var/lib/mysql/asos_dump.txt [Sent]      
+2013-10-30 09:28:49 Normal File-->               801 /var/lib/mysql/barak_dump.txt [Sent]      
+2013-10-30 09:28:49 Normal File-->               800 /var/lib/mysql/bugs_dump.txt [Sent]      
+2013-10-30 09:28:49 Normal File-->               806 /var/lib/mysql/cons-train_dump.txt [Sent]      
+2013-10-30 09:28:49 Normal File-->               800 /var/lib/mysql/coop_dump.txt [Sent]      
+2013-10-30 09:28:49 Normal File-->            92,664 /var/lib/mysql/extension_dump.txt.gz [Sent]      
+2013-10-30 09:28:49 Normal File-->            92,650 /var/lib/mysql/extension_dump_delete.txt.gz [Sent]      
+2013-10-30 09:28:49 Normal File-->            92,650 /var/lib/mysql/extension_dump_previous.txt.gz [Sent]      
+2013-10-30 09:28:56 Normal File-->        47,846,617 /var/lib/mysql/aws_dump.txt [Sent]      
+2013-10-30 09:28:56 Normal File-->               767 /var/lib/mysql/insolation_dump.txt.gz [Sent]      
+2013-10-30 09:28:56 Normal File-->               769 /var/lib/mysql/insolation_dump_delete.txt.gz [Sent]      
+2013-10-30 09:28:56 Normal File-->               767 /var/lib/mysql/insolation_dump_previous.txt.gz [Sent]      
+2013-10-30 09:28:56 Normal File-->             7,634 /var/lib/mysql/mysql_dump.txt.gz [Sent]      
+2013-10-30 09:28:56 Normal File-->             7,590 /var/lib/mysql/mysql_dump_delete.txt.gz [Sent]      
+2013-10-30 09:28:56 Normal File-->             7,632 /var/lib/mysql/mysql_dump_previous.txt.gz [Sent]      
+2013-10-30 09:28:56 Normal File-->        42,857,052 /var/lib/mysql/grids_dump.txt [Sent]      
+2013-10-30 09:28:56 Normal File-->            65,265 /var/lib/mysql/soils_dump.txt.gz [Sent]      
+2013-10-30 09:28:57 Normal File-->            65,266 /var/lib/mysql/soils_dump_delete.txt.gz [Sent]      
+2013-10-30 09:28:57 Normal File-->            65,266 /var/lib/mysql/soils_dump_previous.txt.gz [Sent]      
+2013-10-30 09:28:59 Normal File-->         4,591,061 /var/lib/mysql/transect_dump.txt.gz [Sent]      
+2013-10-30 09:29:02 Normal File-->         4,591,060 /var/lib/mysql/transect_dump_delete.txt.gz [Sent]      
+2013-10-30 09:29:09 ANS1898I ***** Processed   120,500 files *****
+2013-10-30 09:29:15 Normal File-->         4,591,061 /var/lib/mysql/transect_dump_previous.txt.gz [Sent]      
+2013-10-30 09:29:15 Normal File-->           142,274 /var/lib/mysql/turfwebsite_dump.txt.gz [Sent]      
+2013-10-30 09:29:16 ANS1898I ***** Processed   121,000 files *****
+2013-10-30 09:29:16 Normal File-->           142,273 /var/lib/mysql/turfwebsite_dump_delete.txt.gz [Sent]      
+2013-10-30 09:29:16 Normal File-->           142,273 /var/lib/mysql/turfwebsite_dump_previous.txt.gz [Sent]      
+2013-10-30 09:29:18 ANS1898I ***** Processed   122,000 files *****
+2013-10-30 09:29:18 Normal File-->        48,850,465 /var/lib/mysql/opu_dump.txt [Sent]      
+2013-10-30 09:29:19 ANS1898I ***** Processed   124,000 files *****
+2013-10-30 09:29:19 Normal File-->         1,371,136 /var/lib/mysql/aws/t_401.MYI [Sent]      
+2013-10-30 09:29:20 ANS1898I ***** Processed   130,000 files *****
+2013-10-30 09:29:21 ANS1898I ***** Processed   135,500 files *****
+2013-10-30 09:29:23 ANS1898I ***** Processed   139,000 files *****
+2013-10-30 09:29:24 ANS1898I ***** Processed   141,500 files *****
+2013-10-30 09:29:25 ANS1898I ***** Processed   146,500 files *****
+2013-10-30 09:29:26 ANS1898I ***** Processed   150,500 files *****
+2013-10-30 09:30:13 Normal File-->       135,088,617 /var/lib/mysql/aws/t_403.MYD [Sent]      
+2013-10-30 09:30:21 Normal File-->        33,193,984 /var/lib/mysql/aws/t_403.MYI [Sent]      
+2013-10-30 09:30:25 Normal File-->        10,218,960 /var/lib/mysql/aws/t_411.MYD [Sent]      
+2013-10-30 09:30:26 Normal File-->         1,271,808 /var/lib/mysql/aws/t_411.MYI [Sent]      
+2013-10-30 09:30:27 Normal File-->         4,362,930 /var/lib/mysql/aws/t_412.MYD [Sent]      
+2013-10-30 09:30:28 Normal File-->           985,088 /var/lib/mysql/aws/t_412.MYI [Sent]      
+2013-10-30 09:30:28 Normal File-->            34,800 /var/lib/mysql/extension/snaplist.MYD [Sent]      
+2013-10-30 09:30:28 Normal File-->            12,288 /var/lib/mysql/extension/snaplist.MYI [Sent]      
+2013-10-30 09:30:37 Normal File-->        27,350,946 /var/lib/mysql/grids/WiMnDAveTAir.MYD [Sent]      
+2013-10-30 09:30:37 Normal File-->         1,937,408 /var/lib/mysql/grids/WiMnDAveTAir.MYI [Sent]      
+2013-10-30 09:30:42 Normal File-->        18,048,933 /var/lib/mysql/grids/WiMnDET.MYD [Sent]      
+2013-10-30 09:30:42 Normal File-->         1,214,464 /var/lib/mysql/grids/WiMnDET.MYI [Sent]      
+2013-10-30 09:30:50 Normal File-->        27,346,674 /var/lib/mysql/grids/WiMnDMaxTAir.MYD [Sent]      
+2013-10-30 09:30:50 Normal File-->         1,939,456 /var/lib/mysql/grids/WiMnDMaxTAir.MYI [Sent]      
+2013-10-30 09:30:57 Normal File-->        27,350,946 /var/lib/mysql/grids/WiMnDMinTAir.MYD [Sent]      
+2013-10-30 09:30:58 Normal File-->         1,937,408 /var/lib/mysql/grids/WiMnDMinTAir.MYI [Sent]      
+2013-10-30 09:31:34 Normal File-->        96,466,080 /var/lib/mysql/opu/hyd.MYD [Sent]      
+2013-10-30 09:32:18 Normal File-->       109,128,704 /var/lib/mysql/opu/hyd.MYI [Sent]      
+2013-10-30 09:32:18 Normal File-->             1,024 /var/lib/postfix/prng_exch  Changed
+2013-10-30 09:32:18 Retry # 1  Normal File-->             1,024 /var/lib/postfix/prng_exch [Sent]      
+2013-10-30 09:32:19 Normal File-->         4,054,117 /var/mail/root [Sent]      
+2013-10-30 09:34:02 Normal File-->     1,119,767,552 /var/lib/mysql/asos/asosData.MYI [Sent]      
+2013-10-30 09:34:27 Normal File-->     1,718,160,676 /var/lib/mysql/asos/asosData.MYD [Sent]      
+2013-10-30 09:34:27 Successful incremental backup of '/'
+
+2013-10-30 09:34:27 --- SCHEDULEREC STATUS BEGIN
+2013-10-30 09:34:27 Total number of objects inspected:  150,915
+2013-10-30 09:34:27 Total number of objects backed up:       53
+2013-10-30 09:34:27 Total number of objects updated:          0
+2013-10-30 09:34:27 Total number of objects rebound:          0
+2013-10-30 09:34:27 Total number of objects deleted:          0
+2013-10-30 09:34:27 Total number of objects expired:          0
+2013-10-30 09:34:27 Total number of objects failed:           0
+2013-10-30 09:34:27 Total number of bytes transferred:    1.17 GB
+2013-10-30 09:34:27 Data transfer time:                  371.30 sec
+2013-10-30 09:34:27 Network data transfer rate:        3,310.68 KB/sec
+2013-10-30 09:34:27 Aggregate data transfer rate:      2,361.10 KB/sec
+2013-10-30 09:34:27 Objects compressed by:                   65%
+2013-10-30 09:34:27 Elapsed processing time:           00:08:40
+2013-10-30 09:34:27 --- SCHEDULEREC STATUS END
+2013-10-30 09:34:27 --- SCHEDULEREC OBJECT END NIGHTLY-PRODUCTION-BACKUPS 2013-10-30 22:30:00
+2013-10-30 09:34:27 Scheduled event 'NIGHTLY-PRODUCTION-BACKUPS' completed successfully.
+2013-10-30 09:34:27 Sending results for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+2013-10-30 09:34:27 Results sent to server for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+
+2013-10-30 09:34:27 ANS1483I Schedule log pruning started.
+2013-10-30 09:34:27 ANS1484I Schedule log pruning finished successfully.
+2013-10-30 09:34:27 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-30 09:34:27 Querying server for next scheduled event.
+2013-10-30 09:34:27 Node Name: MOLLYSOILS
+2013-10-30 09:34:27 Session established with server BUCKY6: AIX
+2013-10-30 09:34:27   Server Version 6, Release 2, Level 4.0
+2013-10-30 09:34:27   Server date/time: 2013-10-30 22:49:46  Last access: 2013-10-30 22:44:23
+
+2013-10-30 09:34:27 --- SCHEDULEREC QUERY BEGIN
+2013-10-30 09:34:27 --- SCHEDULEREC QUERY END
+2013-10-30 09:34:27 Next operation scheduled:
+2013-10-30 09:34:27 ------------------------------------------------------------
+2013-10-30 09:34:27 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-30 09:34:27 Action:                Incremental
+2013-10-30 09:34:27 Objects:               
+2013-10-30 09:34:27 Options:               
+2013-10-30 09:34:27 Server Window Start:   22:30:00 on 2013-10-31
+2013-10-30 09:34:27 ------------------------------------------------------------
+2013-10-30 09:34:27 Schedule will be refreshed in 4 hours.
+2013-10-30 13:34:27 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-30 13:34:27 Querying server for next scheduled event.
+2013-10-30 13:34:27 Node Name: MOLLYSOILS
+2013-10-30 13:34:27 Session established with server BUCKY6: AIX
+2013-10-30 13:34:27   Server Version 6, Release 2, Level 4.0
+2013-10-30 13:34:27   Server date/time: 2013-10-31 02:52:45  Last access: 2013-10-30 22:49:46
+
+2013-10-30 13:34:27 --- SCHEDULEREC QUERY BEGIN
+2013-10-30 13:34:27 --- SCHEDULEREC QUERY END
+2013-10-30 13:34:27 Next operation scheduled:
+2013-10-30 13:34:27 ------------------------------------------------------------
+2013-10-30 13:34:27 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-30 13:34:27 Action:                Incremental
+2013-10-30 13:34:27 Objects:               
+2013-10-30 13:34:27 Options:               
+2013-10-30 13:34:27 Server Window Start:   22:30:00 on 2013-10-31
+2013-10-30 13:34:27 ------------------------------------------------------------
+2013-10-30 13:34:27 Schedule will be refreshed in 4 hours.
+2013-10-30 17:34:27 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-30 17:34:27 Querying server for next scheduled event.
+2013-10-30 17:34:27 Node Name: MOLLYSOILS
+2013-10-30 17:34:27 Session established with server BUCKY6: AIX
+2013-10-30 17:34:27   Server Version 6, Release 2, Level 4.0
+2013-10-30 17:34:27   Server date/time: 2013-10-31 06:54:59  Last access: 2013-10-31 02:52:45
+
+2013-10-30 17:34:27 --- SCHEDULEREC QUERY BEGIN
+2013-10-30 17:34:27 --- SCHEDULEREC QUERY END
+2013-10-30 17:34:27 Next operation scheduled:
+2013-10-30 17:34:27 ------------------------------------------------------------
+2013-10-30 17:34:27 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-30 17:34:27 Action:                Incremental
+2013-10-30 17:34:27 Objects:               
+2013-10-30 17:34:27 Options:               
+2013-10-30 17:34:27 Server Window Start:   22:30:00 on 2013-10-31
+2013-10-30 17:34:27 ------------------------------------------------------------
+2013-10-30 17:34:27 Schedule will be refreshed in 4 hours.
+2013-10-30 21:34:27 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-30 21:34:27 Querying server for next scheduled event.
+2013-10-30 21:34:27 Node Name: MOLLYSOILS
+2013-10-30 21:34:27 Session established with server BUCKY6: AIX
+2013-10-30 21:34:27   Server Version 6, Release 2, Level 4.0
+2013-10-30 21:34:27   Server date/time: 2013-10-31 10:57:21  Last access: 2013-10-31 06:54:59
+
+2013-10-30 21:34:27 --- SCHEDULEREC QUERY BEGIN
+2013-10-30 21:34:28 --- SCHEDULEREC QUERY END
+2013-10-30 21:34:28 Next operation scheduled:
+2013-10-30 21:34:28 ------------------------------------------------------------
+2013-10-30 21:34:28 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-30 21:34:28 Action:                Incremental
+2013-10-30 21:34:28 Objects:               
+2013-10-30 21:34:28 Options:               
+2013-10-30 21:34:28 Server Window Start:   22:30:00 on 2013-10-31
+2013-10-30 21:34:28 ------------------------------------------------------------
+2013-10-30 21:34:28 Schedule will be refreshed in 4 hours.
+2013-10-31 01:34:28 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-31 01:34:28 Querying server for next scheduled event.
+2013-10-31 01:34:28 Node Name: MOLLYSOILS
+2013-10-31 01:34:28 Session established with server BUCKY6: AIX
+2013-10-31 01:34:28   Server Version 6, Release 2, Level 4.0
+2013-10-31 01:34:28   Server date/time: 2013-10-31 14:59:43  Last access: 2013-10-31 10:57:21
+
+2013-10-31 01:34:28 --- SCHEDULEREC QUERY BEGIN
+2013-10-31 01:34:28 --- SCHEDULEREC QUERY END
+2013-10-31 01:34:28 Next operation scheduled:
+2013-10-31 01:34:28 ------------------------------------------------------------
+2013-10-31 01:34:28 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-31 01:34:28 Action:                Incremental
+2013-10-31 01:34:28 Objects:               
+2013-10-31 01:34:28 Options:               
+2013-10-31 01:34:28 Server Window Start:   22:30:00 on 2013-10-31
+2013-10-31 01:34:28 ------------------------------------------------------------
+2013-10-31 01:34:28 Schedule will be refreshed in 4 hours.
+2013-10-31 05:34:28 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-31 05:34:28 Querying server for next scheduled event.
+2013-10-31 05:34:28 Node Name: MOLLYSOILS
+2013-10-31 05:34:28 Session established with server BUCKY6: AIX
+2013-10-31 05:34:28   Server Version 6, Release 2, Level 4.0
+2013-10-31 05:34:28   Server date/time: 2013-10-31 19:02:04  Last access: 2013-10-31 14:59:43
+
+2013-10-31 05:34:28 --- SCHEDULEREC QUERY BEGIN
+2013-10-31 05:34:28 --- SCHEDULEREC QUERY END
+2013-10-31 05:34:28 Next operation scheduled:
+2013-10-31 05:34:28 ------------------------------------------------------------
+2013-10-31 05:34:28 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-31 05:34:28 Action:                Incremental
+2013-10-31 05:34:28 Objects:               
+2013-10-31 05:34:28 Options:               
+2013-10-31 05:34:28 Server Window Start:   22:30:00 on 2013-10-31
+2013-10-31 05:34:28 ------------------------------------------------------------
+2013-10-31 05:34:28 Schedule will be refreshed in 4 hours.
+2013-10-31 09:34:28 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-31 09:34:28 Querying server for next scheduled event.
+2013-10-31 09:34:28 Node Name: MOLLYSOILS
+2013-10-31 09:34:28 Session established with server BUCKY6: AIX
+2013-10-31 09:34:28   Server Version 6, Release 2, Level 4.0
+2013-10-31 09:34:28   Server date/time: 2013-10-31 23:04:11  Last access: 2013-10-31 19:02:04
+
+2013-10-31 09:34:28 --- SCHEDULEREC QUERY BEGIN
+2013-10-31 09:34:28 --- SCHEDULEREC QUERY END
+2013-10-31 09:34:28 Next operation scheduled:
+2013-10-31 09:34:28 ------------------------------------------------------------
+2013-10-31 09:34:28 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-31 09:34:28 Action:                Incremental
+2013-10-31 09:34:28 Objects:               
+2013-10-31 09:34:28 Options:               
+2013-10-31 09:34:28 Server Window Start:   22:30:00 on 2013-10-31
+2013-10-31 09:34:28 ------------------------------------------------------------
+2013-10-31 09:34:28 Command will be executed in 50 minutes.
+2013-10-31 10:24:28 
+Executing scheduled command now.
+2013-10-31 10:24:28 Node Name: MOLLYSOILS
+2013-10-31 10:24:28 Session established with server BUCKY6: AIX
+2013-10-31 10:24:28   Server Version 6, Release 2, Level 4.0
+2013-10-31 10:24:28   Server date/time: 2013-10-31 23:54:42  Last access: 2013-10-31 23:04:11
+
+2013-10-31 10:24:29 --- SCHEDULEREC OBJECT BEGIN NIGHTLY-PRODUCTION-BACKUPS 2013-10-31 22:30:00
+2013-10-31 10:24:29 Incremental backup of volume '/'
+2013-10-31 10:24:58 ANS1898I ***** Processed     2,000 files *****
+2013-10-31 10:24:59 ANS1898I ***** Processed     7,000 files *****
+2013-10-31 10:25:00 ANS1898I ***** Processed    13,000 files *****
+2013-10-31 10:25:01 ANS1898I ***** Processed    19,500 files *****
+2013-10-31 10:25:02 ANS1898I ***** Processed    26,000 files *****
+2013-10-31 10:25:03 ANS1898I ***** Processed    30,500 files *****
+2013-10-31 10:25:30 ANS1898I ***** Processed    39,500 files *****
+2013-10-31 10:25:31 ANS1898I ***** Processed    50,000 files *****
+2013-10-31 10:25:32 ANS1898I ***** Processed    63,000 files *****
+2013-10-31 10:25:33 ANS1898I ***** Processed    72,500 files *****
+2013-10-31 10:25:34 ANS1898I ***** Processed    78,500 files *****
+2013-10-31 10:25:57 ANS1898I ***** Processed    84,000 files *****
+2013-10-31 10:25:58 ANS1898I ***** Processed    92,000 files *****
+2013-10-31 10:25:59 ANS1898I ***** Processed    96,000 files *****
+2013-10-31 10:26:00 ANS1898I ***** Processed   102,000 files *****
+2013-10-31 10:26:01 ANS1898I ***** Processed   110,500 files *****
+2013-10-31 10:27:12 ANS1898I ***** Processed   113,000 files *****
+2013-10-31 10:27:13 ANS1898I ***** Processed   117,500 files *****
+2013-10-31 10:27:14 ANS1898I ***** Processed   120,000 files *****
+2013-10-31 10:27:14 Directory-->               4,096 / [Sent]      
+2013-10-31 10:27:14 Normal File-->               139 /opt/tivoli/tsm/client/ba/bin/tsmstats.ini [Sent]      
+2013-10-31 10:27:14 Normal File-->             1,195 /var/lib/logrotate/status [Sent]      
+2013-10-31 10:27:14 Normal File-->         3,673,483 /var/lib/mlocate/mlocate.db [Sent]      
+2013-10-31 10:27:17 Normal File-->        50,802,191 /var/lib/mysql/asos_dump.txt [Sent]      
+2013-10-31 10:27:25 Normal File-->               801 /var/lib/mysql/barak_dump.txt [Sent]      
+2013-10-31 10:27:26 Normal File-->               800 /var/lib/mysql/bugs_dump.txt [Sent]      
+2013-10-31 10:27:26 Normal File-->               806 /var/lib/mysql/cons-train_dump.txt [Sent]      
+2013-10-31 10:27:26 Normal File-->               800 /var/lib/mysql/coop_dump.txt [Sent]      
+2013-10-31 10:27:26 Normal File-->            92,664 /var/lib/mysql/extension_dump.txt.gz [Sent]      
+2013-10-31 10:27:26 Normal File-->            92,650 /var/lib/mysql/extension_dump_delete.txt.gz [Sent]      
+2013-10-31 10:27:26 Normal File-->            92,664 /var/lib/mysql/extension_dump_previous.txt.gz [Sent]      
+2013-10-31 10:27:33 Normal File-->        41,695,205 /var/lib/mysql/grids_dump.txt [Sent]      
+2013-10-31 10:27:33 Normal File-->               768 /var/lib/mysql/insolation_dump.txt.gz [Sent]      
+2013-10-31 10:27:33 Normal File-->               767 /var/lib/mysql/insolation_dump_delete.txt.gz [Sent]      
+2013-10-31 10:27:33 Normal File-->               767 /var/lib/mysql/insolation_dump_previous.txt.gz [Sent]      
+2013-10-31 10:27:33 Normal File-->             7,634 /var/lib/mysql/mysql_dump.txt.gz [Sent]      
+2013-10-31 10:27:33 Normal File-->             7,632 /var/lib/mysql/mysql_dump_delete.txt.gz [Sent]      
+2013-10-31 10:27:33 Normal File-->             7,634 /var/lib/mysql/mysql_dump_previous.txt.gz [Sent]      
+2013-10-31 10:27:33 Normal File-->        49,239,293 /var/lib/mysql/aws_dump.txt [Sent]      
+2013-10-31 10:27:33 Normal File-->            65,266 /var/lib/mysql/soils_dump.txt.gz [Sent]      
+2013-10-31 10:27:34 Normal File-->            65,266 /var/lib/mysql/soils_dump_delete.txt.gz [Sent]      
+2013-10-31 10:27:34 Normal File-->            65,265 /var/lib/mysql/soils_dump_previous.txt.gz [Sent]      
+2013-10-31 10:27:36 Normal File-->         4,591,061 /var/lib/mysql/transect_dump.txt.gz [Sent]      
+2013-10-31 10:27:39 Normal File-->         4,591,061 /var/lib/mysql/transect_dump_delete.txt.gz [Sent]      
+2013-10-31 10:27:41 Normal File-->         4,591,061 /var/lib/mysql/transect_dump_previous.txt.gz [Sent]      
+2013-10-31 10:27:41 Normal File-->           142,272 /var/lib/mysql/turfwebsite_dump.txt.gz [Sent]      
+2013-10-31 10:27:41 Normal File-->           142,273 /var/lib/mysql/turfwebsite_dump_delete.txt.gz [Sent]      
+2013-10-31 10:27:42 ANS1898I ***** Processed   121,500 files *****
+2013-10-31 10:27:42 Normal File-->           142,274 /var/lib/mysql/turfwebsite_dump_previous.txt.gz [Sent]      
+2013-10-31 10:27:42 Normal File-->        48,422,458 /var/lib/mysql/opu_dump.txt [Sent]      
+2013-10-31 10:27:43 ANS1898I ***** Processed   123,000 files *****
+2013-10-31 10:27:43 Normal File-->         1,654,464 /var/lib/mysql/aws/t_401.MYD [Sent]      
+2013-10-31 10:27:43 Normal File-->         1,371,136 /var/lib/mysql/aws/t_401.MYI [Sent]      
+2013-10-31 10:27:44 ANS1898I ***** Processed   124,000 files *****
+2013-10-31 10:27:53 ANS1898I ***** Processed   127,500 files *****
+2013-10-31 10:27:54 ANS1898I ***** Processed   132,500 files *****
+2013-10-31 10:27:55 ANS1898I ***** Processed   136,500 files *****
+2013-10-31 10:27:56 ANS1898I ***** Processed   141,000 files *****
+2013-10-31 10:27:57 ANS1898I ***** Processed   144,500 files *****
+2013-10-31 10:27:59 ANS1898I ***** Processed   146,000 files *****
+2013-10-31 10:28:00 ANS1898I ***** Processed   148,000 files *****
+2013-10-31 10:28:01 ANS1898I ***** Processed   150,500 files *****
+2013-10-31 10:28:44 Normal File-->       135,095,625 /var/lib/mysql/aws/t_403.MYD [Sent]      
+2013-10-31 10:28:52 Normal File-->        33,196,032 /var/lib/mysql/aws/t_403.MYI [Sent]      
+2013-10-31 10:28:56 Normal File-->        10,219,248 /var/lib/mysql/aws/t_411.MYD [Sent]      
+2013-10-31 10:28:57 Normal File-->         1,271,808 /var/lib/mysql/aws/t_411.MYI [Sent]      
+2013-10-31 10:28:59 Normal File-->         4,363,086 /var/lib/mysql/aws/t_412.MYD [Sent]      
+2013-10-31 10:28:59 Normal File-->           985,088 /var/lib/mysql/aws/t_412.MYI [Sent]      
+2013-10-31 10:29:07 Normal File-->        27,356,553 /var/lib/mysql/grids/WiMnDAveTAir.MYD [Sent]      
+2013-10-31 10:29:07 Normal File-->         1,937,408 /var/lib/mysql/grids/WiMnDAveTAir.MYI [Sent]      
+2013-10-31 10:29:12 Normal File-->        18,054,540 /var/lib/mysql/grids/WiMnDET.MYD [Sent]      
+2013-10-31 10:29:12 Normal File-->         1,214,464 /var/lib/mysql/grids/WiMnDET.MYI [Sent]      
+2013-10-31 10:29:20 Normal File-->        27,352,281 /var/lib/mysql/grids/WiMnDMaxTAir.MYD [Sent]      
+2013-10-31 10:29:21 Normal File-->         1,939,456 /var/lib/mysql/grids/WiMnDMaxTAir.MYI [Sent]      
+2013-10-31 10:29:28 Normal File-->        27,356,553 /var/lib/mysql/grids/WiMnDMinTAir.MYD [Sent]      
+2013-10-31 10:29:29 Normal File-->         1,937,408 /var/lib/mysql/grids/WiMnDMinTAir.MYI [Sent]      
+2013-10-31 10:30:06 Normal File-->        96,502,032 /var/lib/mysql/opu/hyd.MYD [Sent]      
+2013-10-31 10:30:49 Normal File-->       109,172,736 /var/lib/mysql/opu/hyd.MYI [Sent]      
+2013-10-31 10:30:49 Normal File-->             1,024 /var/lib/postfix/prng_exch [Sent]      
+2013-10-31 10:30:50 Normal File-->         4,062,699 /var/mail/root [Sent]      
+2013-10-31 10:32:28 Normal File-->     1,120,071,680 /var/lib/mysql/asos/asosData.MYI [Sent]      
+2013-10-31 10:32:49 Normal File-->     1,718,588,456 /var/lib/mysql/asos/asosData.MYD [Sent]      
+2013-10-31 10:32:49 Successful incremental backup of '/'
+
+2013-10-31 10:32:49 --- SCHEDULEREC STATUS BEGIN
+2013-10-31 10:32:49 Total number of objects inspected:  150,915
+2013-10-31 10:32:49 Total number of objects backed up:       52
+2013-10-31 10:32:49 Total number of objects updated:          0
+2013-10-31 10:32:49 Total number of objects rebound:          0
+2013-10-31 10:32:49 Total number of objects deleted:          0
+2013-10-31 10:32:49 Total number of objects expired:          0
+2013-10-31 10:32:49 Total number of objects failed:           0
+2013-10-31 10:32:49 Total number of bytes transferred:    1.17 GB
+2013-10-31 10:32:49 Data transfer time:                  388.04 sec
+2013-10-31 10:32:49 Network data transfer rate:        3,170.93 KB/sec
+2013-10-31 10:32:49 Aggregate data transfer rate:      2,459.18 KB/sec
+2013-10-31 10:32:49 Objects compressed by:                   65%
+2013-10-31 10:32:49 Elapsed processing time:           00:08:20
+2013-10-31 10:32:49 --- SCHEDULEREC STATUS END
+2013-10-31 10:32:49 --- SCHEDULEREC OBJECT END NIGHTLY-PRODUCTION-BACKUPS 2013-10-31 22:30:00
+2013-10-31 10:32:49 Scheduled event 'NIGHTLY-PRODUCTION-BACKUPS' completed successfully.
+2013-10-31 10:32:49 Sending results for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+2013-10-31 10:32:49 Results sent to server for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+
+2013-10-31 10:32:49 ANS1483I Schedule log pruning started.
+2013-10-31 10:32:49 ANS1484I Schedule log pruning finished successfully.
+2013-10-31 10:32:49 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-31 10:32:49 Querying server for next scheduled event.
+2013-10-31 10:32:49 Node Name: MOLLYSOILS
+2013-10-31 10:32:50 Session established with server BUCKY6: AIX
+2013-10-31 10:32:50   Server Version 6, Release 2, Level 4.0
+2013-10-31 10:32:50   Server date/time: 2013-11-01 00:03:11  Last access: 2013-10-31 23:58:01
+
+2013-10-31 10:32:50 --- SCHEDULEREC QUERY BEGIN
+2013-10-31 10:32:50 --- SCHEDULEREC QUERY END
+2013-10-31 10:32:50 Next operation scheduled:
+2013-10-31 10:32:50 ------------------------------------------------------------
+2013-10-31 10:32:50 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-31 10:32:50 Action:                Incremental
+2013-10-31 10:32:50 Objects:               
+2013-10-31 10:32:50 Options:               
+2013-10-31 10:32:50 Server Window Start:   22:30:00 on 2013-11-01
+2013-10-31 10:32:50 ------------------------------------------------------------
+2013-10-31 10:32:50 Schedule will be refreshed in 4 hours.
+2013-10-31 14:32:50 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-31 14:32:50 Querying server for next scheduled event.
+2013-10-31 14:32:50 Node Name: MOLLYSOILS
+2013-10-31 14:32:50 Session established with server BUCKY6: AIX
+2013-10-31 14:32:50   Server Version 6, Release 2, Level 4.0
+2013-10-31 14:32:50   Server date/time: 2013-11-01 04:06:09  Last access: 2013-11-01 00:03:11
+
+2013-10-31 14:32:50 --- SCHEDULEREC QUERY BEGIN
+2013-10-31 14:32:50 --- SCHEDULEREC QUERY END
+2013-10-31 14:32:50 Next operation scheduled:
+2013-10-31 14:32:50 ------------------------------------------------------------
+2013-10-31 14:32:50 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-31 14:32:50 Action:                Incremental
+2013-10-31 14:32:50 Objects:               
+2013-10-31 14:32:50 Options:               
+2013-10-31 14:32:50 Server Window Start:   22:30:00 on 2013-11-01
+2013-10-31 14:32:50 ------------------------------------------------------------
+2013-10-31 14:32:50 Schedule will be refreshed in 4 hours.
+2013-10-31 18:32:50 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-31 18:32:50 Querying server for next scheduled event.
+2013-10-31 18:32:50 Node Name: MOLLYSOILS
+2013-10-31 18:32:50 Session established with server BUCKY6: AIX
+2013-10-31 18:32:50   Server Version 6, Release 2, Level 4.0
+2013-10-31 18:32:50   Server date/time: 2013-11-01 08:08:30  Last access: 2013-11-01 04:06:09
+
+2013-10-31 18:32:50 --- SCHEDULEREC QUERY BEGIN
+2013-10-31 18:32:51 --- SCHEDULEREC QUERY END
+2013-10-31 18:32:51 Next operation scheduled:
+2013-10-31 18:32:51 ------------------------------------------------------------
+2013-10-31 18:32:51 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-31 18:32:51 Action:                Incremental
+2013-10-31 18:32:51 Objects:               
+2013-10-31 18:32:51 Options:               
+2013-10-31 18:32:51 Server Window Start:   22:30:00 on 2013-11-01
+2013-10-31 18:32:51 ------------------------------------------------------------
+2013-10-31 18:32:51 Schedule will be refreshed in 4 hours.
+2013-10-31 22:32:51 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-10-31 22:32:51 Querying server for next scheduled event.
+2013-10-31 22:32:51 Node Name: MOLLYSOILS
+2013-10-31 22:32:51 Session established with server BUCKY6: AIX
+2013-10-31 22:32:51   Server Version 6, Release 2, Level 4.0
+2013-10-31 22:32:51   Server date/time: 2013-11-01 12:10:46  Last access: 2013-11-01 08:08:30
+
+2013-10-31 22:32:51 --- SCHEDULEREC QUERY BEGIN
+2013-10-31 22:32:51 --- SCHEDULEREC QUERY END
+2013-10-31 22:32:51 Next operation scheduled:
+2013-10-31 22:32:51 ------------------------------------------------------------
+2013-10-31 22:32:51 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-10-31 22:32:51 Action:                Incremental
+2013-10-31 22:32:51 Objects:               
+2013-10-31 22:32:51 Options:               
+2013-10-31 22:32:51 Server Window Start:   22:30:00 on 2013-11-01
+2013-10-31 22:32:51 ------------------------------------------------------------
+2013-10-31 22:32:51 Schedule will be refreshed in 4 hours.
+2013-11-01 02:32:51 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-01 02:32:51 Querying server for next scheduled event.
+2013-11-01 02:32:51 Node Name: MOLLYSOILS
+2013-11-01 02:32:51 Session established with server BUCKY6: AIX
+2013-11-01 02:32:51   Server Version 6, Release 2, Level 4.0
+2013-11-01 02:32:51   Server date/time: 2013-11-01 16:13:06  Last access: 2013-11-01 12:10:46
+
+2013-11-01 02:32:51 --- SCHEDULEREC QUERY BEGIN
+2013-11-01 02:32:51 --- SCHEDULEREC QUERY END
+2013-11-01 02:32:51 Next operation scheduled:
+2013-11-01 02:32:51 ------------------------------------------------------------
+2013-11-01 02:32:51 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-01 02:32:51 Action:                Incremental
+2013-11-01 02:32:51 Objects:               
+2013-11-01 02:32:51 Options:               
+2013-11-01 02:32:51 Server Window Start:   22:30:00 on 2013-11-01
+2013-11-01 02:32:51 ------------------------------------------------------------
+2013-11-01 02:32:51 Schedule will be refreshed in 4 hours.
+2013-11-01 06:32:51 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-01 06:32:51 Querying server for next scheduled event.
+2013-11-01 06:32:51 Node Name: MOLLYSOILS
+2013-11-01 06:32:51 Session established with server BUCKY6: AIX
+2013-11-01 06:32:51   Server Version 6, Release 2, Level 4.0
+2013-11-01 06:32:51   Server date/time: 2013-11-01 20:15:26  Last access: 2013-11-01 16:13:06
+
+2013-11-01 06:32:51 --- SCHEDULEREC QUERY BEGIN
+2013-11-01 06:32:51 --- SCHEDULEREC QUERY END
+2013-11-01 06:32:51 Next operation scheduled:
+2013-11-01 06:32:51 ------------------------------------------------------------
+2013-11-01 06:32:51 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-01 06:32:51 Action:                Incremental
+2013-11-01 06:32:51 Objects:               
+2013-11-01 06:32:51 Options:               
+2013-11-01 06:32:51 Server Window Start:   22:30:00 on 2013-11-01
+2013-11-01 06:32:51 ------------------------------------------------------------
+2013-11-01 06:32:51 Command will be executed in 2 hours and 51 minutes.
+2013-11-01 09:23:51 
+Executing scheduled command now.
+2013-11-01 09:23:51 Node Name: MOLLYSOILS
+2013-11-01 09:23:51 Session established with server BUCKY6: AIX
+2013-11-01 09:23:51   Server Version 6, Release 2, Level 4.0
+2013-11-01 09:23:51   Server date/time: 2013-11-01 23:07:57  Last access: 2013-11-01 20:15:26
+
+2013-11-01 09:23:51 --- SCHEDULEREC OBJECT BEGIN NIGHTLY-PRODUCTION-BACKUPS 2013-11-01 22:30:00
+2013-11-01 09:23:51 Incremental backup of volume '/'
+2013-11-01 09:24:46 ANS1898I ***** Processed     2,000 files *****
+2013-11-01 09:24:47 ANS1898I ***** Processed     5,500 files *****
+2013-11-01 09:24:48 ANS1898I ***** Processed    10,500 files *****
+2013-11-01 09:24:49 ANS1898I ***** Processed    14,500 files *****
+2013-11-01 09:24:50 ANS1898I ***** Processed    19,000 files *****
+2013-11-01 09:24:51 ANS1898I ***** Processed    24,000 files *****
+2013-11-01 09:24:52 ANS1898I ***** Processed    27,000 files *****
+2013-11-01 09:24:53 ANS1898I ***** Processed    32,000 files *****
+2013-11-01 09:24:54 ANS1898I ***** Processed    39,500 files *****
+2013-11-01 09:24:55 ANS1898I ***** Processed    48,000 files *****
+2013-11-01 09:24:56 ANS1898I ***** Processed    57,500 files *****
+2013-11-01 09:24:57 ANS1898I ***** Processed    68,000 files *****
+2013-11-01 09:24:58 ANS1898I ***** Processed    76,000 files *****
+2013-11-01 09:24:59 ANS1898I ***** Processed    81,000 files *****
+2013-11-01 09:25:00 ANS1898I ***** Processed    90,000 files *****
+2013-11-01 09:25:01 ANS1898I ***** Processed    96,500 files *****
+2013-11-01 09:25:02 ANS1898I ***** Processed   103,000 files *****
+2013-11-01 09:25:03 ANS1898I ***** Processed   111,000 files *****
+2013-11-01 09:25:04 ANS1898I ***** Processed   116,000 files *****
+2013-11-01 09:25:05 ANS1898I ***** Processed   120,000 files *****
+2013-11-01 09:25:05 Directory-->               4,096 / [Sent]      
+2013-11-01 09:25:05 Normal File-->               139 /opt/tivoli/tsm/client/ba/bin/tsmstats.ini [Sent]      
+2013-11-01 09:25:05 Normal File-->             1,193 /var/lib/logrotate/status [Sent]      
+2013-11-01 09:25:05 Normal File-->         3,673,483 /var/lib/mlocate/mlocate.db [Sent]      
+2013-11-01 09:25:09 Normal File-->        51,241,217 /var/lib/mysql/asos_dump.txt [Sent]      
+2013-11-01 09:25:12 Normal File-->        48,047,340 /var/lib/mysql/aws_dump.txt [Sent]      
+2013-11-01 09:25:12 Normal File-->               801 /var/lib/mysql/barak_dump.txt [Sent]      
+2013-11-01 09:25:12 Normal File-->               800 /var/lib/mysql/bugs_dump.txt [Sent]      
+2013-11-01 09:25:12 Normal File-->               806 /var/lib/mysql/cons-train_dump.txt [Sent]      
+2013-11-01 09:25:12 Normal File-->               800 /var/lib/mysql/coop_dump.txt [Sent]      
+2013-11-01 09:25:12 Normal File-->            92,663 /var/lib/mysql/extension_dump.txt.gz [Sent]      
+2013-11-01 09:25:12 Normal File-->            92,664 /var/lib/mysql/extension_dump_delete.txt.gz [Sent]      
+2013-11-01 09:25:13 Normal File-->            92,664 /var/lib/mysql/extension_dump_previous.txt.gz [Sent]      
+2013-11-01 09:25:17 Normal File-->        42,973,636 /var/lib/mysql/grids_dump.txt [Sent]      
+2013-11-01 09:25:17 Normal File-->               768 /var/lib/mysql/insolation_dump.txt.gz [Sent]      
+2013-11-01 09:25:17 Normal File-->               767 /var/lib/mysql/insolation_dump_delete.txt.gz [Sent]      
+2013-11-01 09:25:17 Normal File-->               768 /var/lib/mysql/insolation_dump_previous.txt.gz [Sent]      
+2013-11-01 09:25:17 Normal File-->             7,632 /var/lib/mysql/mysql_dump.txt.gz [Sent]      
+2013-11-01 09:25:17 Normal File-->             7,634 /var/lib/mysql/mysql_dump_delete.txt.gz [Sent]      
+2013-11-01 09:25:17 Normal File-->             7,634 /var/lib/mysql/mysql_dump_previous.txt.gz [Sent]      
+2013-11-01 09:25:21 Normal File-->        48,635,341 /var/lib/mysql/opu_dump.txt [Sent]      
+2013-11-01 09:25:21 Normal File-->            65,267 /var/lib/mysql/soils_dump.txt.gz [Sent]      
+2013-11-01 09:25:21 Normal File-->            65,265 /var/lib/mysql/soils_dump_delete.txt.gz [Sent]      
+2013-11-01 09:25:21 Normal File-->            65,266 /var/lib/mysql/soils_dump_previous.txt.gz [Sent]      
+2013-11-01 09:25:22 Normal File-->         4,591,059 /var/lib/mysql/transect_dump.txt.gz [Sent]      
+2013-11-01 09:25:24 Normal File-->         4,591,061 /var/lib/mysql/transect_dump_delete.txt.gz [Sent]      
+2013-11-01 09:25:25 Normal File-->         4,591,061 /var/lib/mysql/transect_dump_previous.txt.gz [Sent]      
+2013-11-01 09:25:25 Normal File-->           142,273 /var/lib/mysql/turfwebsite_dump.txt.gz [Sent]      
+2013-11-01 09:25:25 Normal File-->           142,274 /var/lib/mysql/turfwebsite_dump_delete.txt.gz [Sent]      
+2013-11-01 09:25:25 Normal File-->           142,272 /var/lib/mysql/turfwebsite_dump_previous.txt.gz [Sent]      
+2013-11-01 09:25:46 ANS1898I ***** Processed   123,000 files *****
+2013-11-01 09:25:46 Normal File-->         1,656,912 /var/lib/mysql/aws/t_401.MYD [Sent]      
+2013-11-01 09:25:47 ANS1898I ***** Processed   127,500 files *****
+2013-11-01 09:25:47 Normal File-->         1,373,184 /var/lib/mysql/aws/t_401.MYI [Sent]      
+2013-11-01 09:25:48 ANS1898I ***** Processed   131,500 files *****
+2013-11-01 09:25:49 ANS1898I ***** Processed   136,500 files *****
+2013-11-01 09:25:50 ANS1898I ***** Processed   141,000 files *****
+2013-11-01 09:25:51 ANS1898I ***** Processed   144,500 files *****
+2013-11-01 09:25:52 ANS1898I ***** Processed   149,000 files *****
+2013-11-01 09:25:53 ANS1898I ***** Processed   150,500 files *****
+2013-11-01 09:26:37 Normal File-->       135,102,633 /var/lib/mysql/aws/t_403.MYD [Sent]      
+2013-11-01 09:26:45 Normal File-->        33,198,080 /var/lib/mysql/aws/t_403.MYI [Sent]      
+2013-11-01 09:26:49 Normal File-->        10,219,536 /var/lib/mysql/aws/t_411.MYD [Sent]      
+2013-11-01 09:26:50 Normal File-->         1,271,808 /var/lib/mysql/aws/t_411.MYI [Sent]      
+2013-11-01 09:26:51 Normal File-->         4,363,242 /var/lib/mysql/aws/t_412.MYD [Sent]      
+2013-11-01 09:26:52 Normal File-->           985,088 /var/lib/mysql/aws/t_412.MYI [Sent]      
+2013-11-01 09:27:00 Normal File-->        27,362,160 /var/lib/mysql/grids/WiMnDAveTAir.MYD [Sent]      
+2013-11-01 09:27:00 Normal File-->         1,938,432 /var/lib/mysql/grids/WiMnDAveTAir.MYI [Sent]      
+2013-11-01 09:27:05 Normal File-->        18,060,147 /var/lib/mysql/grids/WiMnDET.MYD [Sent]      
+2013-11-01 09:27:05 Normal File-->         1,214,464 /var/lib/mysql/grids/WiMnDET.MYI [Sent]      
+2013-11-01 09:27:13 Normal File-->        27,357,888 /var/lib/mysql/grids/WiMnDMaxTAir.MYD [Sent]      
+2013-11-01 09:27:13 Normal File-->         1,940,480 /var/lib/mysql/grids/WiMnDMaxTAir.MYI [Sent]      
+2013-11-01 09:27:21 Normal File-->        27,362,160 /var/lib/mysql/grids/WiMnDMinTAir.MYD [Sent]      
+2013-11-01 09:27:21 Normal File-->         1,938,432 /var/lib/mysql/grids/WiMnDMinTAir.MYI [Sent]      
+2013-11-01 09:27:57 Normal File-->        96,537,828 /var/lib/mysql/opu/hyd.MYD [Sent]      
+2013-11-01 09:28:40 Normal File-->       109,217,792 /var/lib/mysql/opu/hyd.MYI [Sent]      
+2013-11-01 09:28:40 Normal File-->             1,024 /var/lib/postfix/prng_exch [Sent]      
+2013-11-01 09:28:41 Normal File-->         4,071,281 /var/mail/root [Sent]      
+2013-11-01 09:30:08 Normal File-->     1,120,378,880 /var/lib/mysql/asos/asosData.MYI [Sent]      
+2013-11-01 09:30:21 Normal File-->     1,719,028,272 /var/lib/mysql/asos/asosData.MYD [Sent]      
+2013-11-01 09:30:21 Successful incremental backup of '/'
+
+2013-11-01 09:30:21 --- SCHEDULEREC STATUS BEGIN
+2013-11-01 09:30:21 Total number of objects inspected:  150,915
+2013-11-01 09:30:21 Total number of objects backed up:       52
+2013-11-01 09:30:21 Total number of objects updated:          0
+2013-11-01 09:30:21 Total number of objects rebound:          0
+2013-11-01 09:30:21 Total number of objects deleted:          0
+2013-11-01 09:30:21 Total number of objects expired:          0
+2013-11-01 09:30:21 Total number of objects failed:           0
+2013-11-01 09:30:21 Total number of bytes transferred:    1.17 GB
+2013-11-01 09:30:21 Data transfer time:                  370.12 sec
+2013-11-01 09:30:21 Network data transfer rate:        3,325.83 KB/sec
+2013-11-01 09:30:21 Aggregate data transfer rate:      3,157.81 KB/sec
+2013-11-01 09:30:21 Objects compressed by:                   65%
+2013-11-01 09:30:21 Elapsed processing time:           00:06:29
+2013-11-01 09:30:21 --- SCHEDULEREC STATUS END
+2013-11-01 09:30:21 --- SCHEDULEREC OBJECT END NIGHTLY-PRODUCTION-BACKUPS 2013-11-01 22:30:00
+2013-11-01 09:30:21 Scheduled event 'NIGHTLY-PRODUCTION-BACKUPS' completed successfully.
+2013-11-01 09:30:21 Sending results for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+2013-11-01 09:30:21 Results sent to server for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+
+2013-11-01 09:30:21 ANS1483I Schedule log pruning started.
+2013-11-01 09:30:21 ANS1484I Schedule log pruning finished successfully.
+2013-11-01 09:30:21 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-01 09:30:21 Querying server for next scheduled event.
+2013-11-01 09:30:21 Node Name: MOLLYSOILS
+2013-11-01 09:30:22 Session established with server BUCKY6: AIX
+2013-11-01 09:30:22   Server Version 6, Release 2, Level 4.0
+2013-11-01 09:30:22   Server date/time: 2013-11-01 23:14:35  Last access: 2013-11-01 23:09:58
+
+2013-11-01 09:30:22 --- SCHEDULEREC QUERY BEGIN
+2013-11-01 09:30:22 --- SCHEDULEREC QUERY END
+2013-11-01 09:30:22 Next operation scheduled:
+2013-11-01 09:30:22 ------------------------------------------------------------
+2013-11-01 09:30:22 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-01 09:30:22 Action:                Incremental
+2013-11-01 09:30:22 Objects:               
+2013-11-01 09:30:22 Options:               
+2013-11-01 09:30:22 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-01 09:30:22 ------------------------------------------------------------
+2013-11-01 09:30:22 Schedule will be refreshed in 4 hours.
+2013-11-01 13:30:22 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-01 13:30:22 Querying server for next scheduled event.
+2013-11-01 13:30:22 Node Name: MOLLYSOILS
+2013-11-01 13:30:22 Session established with server BUCKY6: AIX
+2013-11-01 13:30:22   Server Version 6, Release 2, Level 4.0
+2013-11-01 13:30:22   Server date/time: 2013-11-02 03:17:30  Last access: 2013-11-01 23:14:35
+
+2013-11-01 13:30:22 --- SCHEDULEREC QUERY BEGIN
+2013-11-01 13:30:22 --- SCHEDULEREC QUERY END
+2013-11-01 13:30:22 Next operation scheduled:
+2013-11-01 13:30:22 ------------------------------------------------------------
+2013-11-01 13:30:22 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-01 13:30:22 Action:                Incremental
+2013-11-01 13:30:22 Objects:               
+2013-11-01 13:30:22 Options:               
+2013-11-01 13:30:22 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-01 13:30:22 ------------------------------------------------------------
+2013-11-01 13:30:22 Schedule will be refreshed in 4 hours.
+2013-11-01 17:30:22 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-01 17:30:22 Querying server for next scheduled event.
+2013-11-01 17:30:22 Node Name: MOLLYSOILS
+2013-11-01 17:30:22 Session established with server BUCKY6: AIX
+2013-11-01 17:30:22   Server Version 6, Release 2, Level 4.0
+2013-11-01 17:30:22   Server date/time: 2013-11-02 07:19:50  Last access: 2013-11-02 03:17:30
+
+2013-11-01 17:30:22 --- SCHEDULEREC QUERY BEGIN
+2013-11-01 17:30:22 --- SCHEDULEREC QUERY END
+2013-11-01 17:30:22 Next operation scheduled:
+2013-11-01 17:30:22 ------------------------------------------------------------
+2013-11-01 17:30:22 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-01 17:30:22 Action:                Incremental
+2013-11-01 17:30:22 Objects:               
+2013-11-01 17:30:22 Options:               
+2013-11-01 17:30:22 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-01 17:30:22 ------------------------------------------------------------
+2013-11-01 17:30:22 Schedule will be refreshed in 4 hours.
+2013-11-01 21:30:22 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-01 21:30:22 Querying server for next scheduled event.
+2013-11-01 21:30:22 Node Name: MOLLYSOILS
+2013-11-01 21:30:22 Session established with server BUCKY6: AIX
+2013-11-01 21:30:22   Server Version 6, Release 2, Level 4.0
+2013-11-01 21:30:22   Server date/time: 2013-11-02 11:22:06  Last access: 2013-11-02 07:19:50
+
+2013-11-01 21:30:22 --- SCHEDULEREC QUERY BEGIN
+2013-11-01 21:30:22 --- SCHEDULEREC QUERY END
+2013-11-01 21:30:22 Next operation scheduled:
+2013-11-01 21:30:22 ------------------------------------------------------------
+2013-11-01 21:30:22 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-01 21:30:22 Action:                Incremental
+2013-11-01 21:30:22 Objects:               
+2013-11-01 21:30:22 Options:               
+2013-11-01 21:30:22 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-01 21:30:22 ------------------------------------------------------------
+2013-11-01 21:30:22 Schedule will be refreshed in 4 hours.
+2013-11-02 01:30:22 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-02 01:30:22 Querying server for next scheduled event.
+2013-11-02 01:30:22 Node Name: MOLLYSOILS
+2013-11-02 01:30:22 Session established with server BUCKY6: AIX
+2013-11-02 01:30:22   Server Version 6, Release 2, Level 4.0
+2013-11-02 01:30:22   Server date/time: 2013-11-02 15:24:26  Last access: 2013-11-02 11:22:06
+
+2013-11-02 01:30:22 --- SCHEDULEREC QUERY BEGIN
+2013-11-02 01:30:22 --- SCHEDULEREC QUERY END
+2013-11-02 01:30:22 Next operation scheduled:
+2013-11-02 01:30:22 ------------------------------------------------------------
+2013-11-02 01:30:22 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-02 01:30:22 Action:                Incremental
+2013-11-02 01:30:22 Objects:               
+2013-11-02 01:30:22 Options:               
+2013-11-02 01:30:22 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-02 01:30:22 ------------------------------------------------------------
+2013-11-02 01:30:22 Schedule will be refreshed in 4 hours.
+2013-11-02 05:30:22 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-02 05:30:22 Querying server for next scheduled event.
+2013-11-02 05:30:22 Node Name: MOLLYSOILS
+2013-11-02 05:30:22 Session established with server BUCKY6: AIX
+2013-11-02 05:30:22   Server Version 6, Release 2, Level 4.0
+2013-11-02 05:30:22   Server date/time: 2013-11-02 19:26:46  Last access: 2013-11-02 15:24:26
+
+2013-11-02 05:30:22 --- SCHEDULEREC QUERY BEGIN
+2013-11-02 05:30:23 --- SCHEDULEREC QUERY END
+2013-11-02 05:30:23 Next operation scheduled:
+2013-11-02 05:30:23 ------------------------------------------------------------
+2013-11-02 05:30:23 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-02 05:30:23 Action:                Incremental
+2013-11-02 05:30:23 Objects:               
+2013-11-02 05:30:23 Options:               
+2013-11-02 05:30:23 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-02 05:30:23 ------------------------------------------------------------
+2013-11-02 05:30:23 Schedule will be refreshed in 4 hours.
+2013-11-02 09:30:23 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-02 09:30:23 Querying server for next scheduled event.
+2013-11-02 09:30:23 Node Name: MOLLYSOILS
+2013-11-02 09:30:23 Session established with server BUCKY6: AIX
+2013-11-02 09:30:23   Server Version 6, Release 2, Level 4.0
+2013-11-02 09:30:23   Server date/time: 2013-11-02 23:29:01  Last access: 2013-11-02 19:26:46
+
+2013-11-02 09:30:23 --- SCHEDULEREC QUERY BEGIN
+2013-11-02 09:30:23 --- SCHEDULEREC QUERY END
+2013-11-02 09:30:23 Next operation scheduled:
+2013-11-02 09:30:23 ------------------------------------------------------------
+2013-11-02 09:30:23 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-02 09:30:23 Action:                Incremental
+2013-11-02 09:30:23 Objects:               
+2013-11-02 09:30:23 Options:               
+2013-11-02 09:30:23 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-02 09:30:23 ------------------------------------------------------------
+2013-11-02 09:30:23 Schedule will be refreshed in 4 hours.
+2013-11-02 13:30:23 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-02 13:30:23 Querying server for next scheduled event.
+2013-11-02 13:30:23 Node Name: MOLLYSOILS
+2013-11-02 13:30:23 Session established with server BUCKY6: AIX
+2013-11-02 13:30:23   Server Version 6, Release 2, Level 4.0
+2013-11-02 13:30:23   Server date/time: 2013-11-03 02:32:43  Last access: 2013-11-02 23:29:01
+
+2013-11-02 13:30:23 --- SCHEDULEREC QUERY BEGIN
+2013-11-02 13:30:23 --- SCHEDULEREC QUERY END
+2013-11-02 13:30:23 Next operation scheduled:
+2013-11-02 13:30:23 ------------------------------------------------------------
+2013-11-02 13:30:23 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-02 13:30:23 Action:                Incremental
+2013-11-02 13:30:23 Objects:               
+2013-11-02 13:30:23 Options:               
+2013-11-02 13:30:23 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-02 13:30:23 ------------------------------------------------------------
+2013-11-02 13:30:23 Schedule will be refreshed in 4 hours.
+2013-11-02 17:30:23 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-02 17:30:23 Querying server for next scheduled event.
+2013-11-02 17:30:23 Node Name: MOLLYSOILS
+2013-11-02 17:30:23 Session established with server BUCKY6: AIX
+2013-11-02 17:30:23   Server Version 6, Release 2, Level 4.0
+2013-11-02 17:30:23   Server date/time: 2013-11-03 06:34:58  Last access: 2013-11-03 02:32:43
+
+2013-11-02 17:30:23 --- SCHEDULEREC QUERY BEGIN
+2013-11-02 17:30:23 --- SCHEDULEREC QUERY END
+2013-11-02 17:30:23 Next operation scheduled:
+2013-11-02 17:30:23 ------------------------------------------------------------
+2013-11-02 17:30:23 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-02 17:30:23 Action:                Incremental
+2013-11-02 17:30:23 Objects:               
+2013-11-02 17:30:23 Options:               
+2013-11-02 17:30:23 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-02 17:30:23 ------------------------------------------------------------
+2013-11-02 17:30:23 Schedule will be refreshed in 4 hours.
+2013-11-02 21:30:23 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-02 21:30:23 Querying server for next scheduled event.
+2013-11-02 21:30:23 Node Name: MOLLYSOILS
+2013-11-02 21:30:23 Session established with server BUCKY6: AIX
+2013-11-02 21:30:23   Server Version 6, Release 2, Level 4.0
+2013-11-02 21:30:23   Server date/time: 2013-11-03 10:37:15  Last access: 2013-11-03 06:34:58
+
+2013-11-02 21:30:23 --- SCHEDULEREC QUERY BEGIN
+2013-11-02 21:30:23 --- SCHEDULEREC QUERY END
+2013-11-02 21:30:23 Next operation scheduled:
+2013-11-02 21:30:23 ------------------------------------------------------------
+2013-11-02 21:30:23 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-02 21:30:23 Action:                Incremental
+2013-11-02 21:30:23 Objects:               
+2013-11-02 21:30:23 Options:               
+2013-11-02 21:30:23 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-02 21:30:23 ------------------------------------------------------------
+2013-11-02 21:30:23 Schedule will be refreshed in 4 hours.
+2013-11-03 01:30:23 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-03 01:30:23 Querying server for next scheduled event.
+2013-11-03 01:30:23 Node Name: MOLLYSOILS
+2013-11-03 01:30:23 Session established with server BUCKY6: AIX
+2013-11-03 01:30:23   Server Version 6, Release 2, Level 4.0
+2013-11-03 01:30:23   Server date/time: 2013-11-03 14:39:38  Last access: 2013-11-03 10:37:15
+
+2013-11-03 01:30:23 --- SCHEDULEREC QUERY BEGIN
+2013-11-03 01:30:23 --- SCHEDULEREC QUERY END
+2013-11-03 01:30:23 Next operation scheduled:
+2013-11-03 01:30:23 ------------------------------------------------------------
+2013-11-03 01:30:23 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-03 01:30:23 Action:                Incremental
+2013-11-03 01:30:23 Objects:               
+2013-11-03 01:30:23 Options:               
+2013-11-03 01:30:23 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-03 01:30:23 ------------------------------------------------------------
+2013-11-03 01:30:23 Schedule will be refreshed in 4 hours.
+2013-11-03 04:30:23 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-03 04:30:23 Querying server for next scheduled event.
+2013-11-03 04:30:23 Node Name: MOLLYSOILS
+2013-11-03 04:30:23 Session established with server BUCKY6: AIX
+2013-11-03 04:30:23   Server Version 6, Release 2, Level 4.0
+2013-11-03 04:30:23   Server date/time: 2013-11-03 18:41:58  Last access: 2013-11-03 14:39:38
+
+2013-11-03 04:30:23 --- SCHEDULEREC QUERY BEGIN
+2013-11-03 04:30:23 --- SCHEDULEREC QUERY END
+2013-11-03 04:30:23 Next operation scheduled:
+2013-11-03 04:30:23 ------------------------------------------------------------
+2013-11-03 04:30:23 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-03 04:30:23 Action:                Incremental
+2013-11-03 04:30:23 Objects:               
+2013-11-03 04:30:23 Options:               
+2013-11-03 04:30:23 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-03 04:30:23 ------------------------------------------------------------
+2013-11-03 04:30:23 Schedule will be refreshed in 4 hours.
+2013-11-03 08:30:23 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-03 08:30:23 Querying server for next scheduled event.
+2013-11-03 08:30:23 Node Name: MOLLYSOILS
+2013-11-03 08:30:23 Session established with server BUCKY6: AIX
+2013-11-03 08:30:23   Server Version 6, Release 2, Level 4.0
+2013-11-03 08:30:23   Server date/time: 2013-11-03 22:44:11  Last access: 2013-11-03 18:41:58
+
+2013-11-03 08:30:23 --- SCHEDULEREC QUERY BEGIN
+2013-11-03 08:30:23 --- SCHEDULEREC QUERY END
+2013-11-03 08:30:23 Next operation scheduled:
+2013-11-03 08:30:23 ------------------------------------------------------------
+2013-11-03 08:30:23 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-03 08:30:23 Action:                Incremental
+2013-11-03 08:30:23 Objects:               
+2013-11-03 08:30:23 Options:               
+2013-11-03 08:30:23 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-03 08:30:23 ------------------------------------------------------------
+2013-11-03 08:30:23 Schedule will be refreshed in 4 hours.
+2013-11-03 12:30:23 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-03 12:30:23 Querying server for next scheduled event.
+2013-11-03 12:30:23 Node Name: MOLLYSOILS
+2013-11-03 12:30:23 Session established with server BUCKY6: AIX
+2013-11-03 12:30:23   Server Version 6, Release 2, Level 4.0
+2013-11-03 12:30:23   Server date/time: 2013-11-04 02:47:08  Last access: 2013-11-03 22:44:11
+
+2013-11-03 12:30:23 --- SCHEDULEREC QUERY BEGIN
+2013-11-03 12:30:23 --- SCHEDULEREC QUERY END
+2013-11-03 12:30:23 Next operation scheduled:
+2013-11-03 12:30:23 ------------------------------------------------------------
+2013-11-03 12:30:23 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-03 12:30:23 Action:                Incremental
+2013-11-03 12:30:23 Objects:               
+2013-11-03 12:30:23 Options:               
+2013-11-03 12:30:23 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-03 12:30:23 ------------------------------------------------------------
+2013-11-03 12:30:23 Schedule will be refreshed in 4 hours.
+2013-11-03 16:30:23 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-03 16:30:23 Querying server for next scheduled event.
+2013-11-03 16:30:23 Node Name: MOLLYSOILS
+2013-11-03 16:30:24 Session established with server BUCKY6: AIX
+2013-11-03 16:30:24   Server Version 6, Release 2, Level 4.0
+2013-11-03 16:30:24   Server date/time: 2013-11-04 06:49:31  Last access: 2013-11-04 02:47:08
+
+2013-11-03 16:30:24 --- SCHEDULEREC QUERY BEGIN
+2013-11-03 16:30:24 --- SCHEDULEREC QUERY END
+2013-11-03 16:30:24 Next operation scheduled:
+2013-11-03 16:30:24 ------------------------------------------------------------
+2013-11-03 16:30:24 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-03 16:30:24 Action:                Incremental
+2013-11-03 16:30:24 Objects:               
+2013-11-03 16:30:24 Options:               
+2013-11-03 16:30:24 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-03 16:30:24 ------------------------------------------------------------
+2013-11-03 16:30:24 Schedule will be refreshed in 4 hours.
+2013-11-03 20:30:24 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-03 20:30:24 Querying server for next scheduled event.
+2013-11-03 20:30:24 Node Name: MOLLYSOILS
+2013-11-03 20:30:24 Session established with server BUCKY6: AIX
+2013-11-03 20:30:24   Server Version 6, Release 2, Level 4.0
+2013-11-03 20:30:24   Server date/time: 2013-11-04 10:51:48  Last access: 2013-11-04 06:49:31
+
+2013-11-03 20:30:24 --- SCHEDULEREC QUERY BEGIN
+2013-11-03 20:30:24 --- SCHEDULEREC QUERY END
+2013-11-03 20:30:24 Next operation scheduled:
+2013-11-03 20:30:24 ------------------------------------------------------------
+2013-11-03 20:30:24 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-03 20:30:24 Action:                Incremental
+2013-11-03 20:30:24 Objects:               
+2013-11-03 20:30:24 Options:               
+2013-11-03 20:30:24 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-03 20:30:24 ------------------------------------------------------------
+2013-11-03 20:30:24 Schedule will be refreshed in 4 hours.
+2013-11-04 00:30:24 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-04 00:30:24 Querying server for next scheduled event.
+2013-11-04 00:30:24 Node Name: MOLLYSOILS
+2013-11-04 00:30:24 Session established with server BUCKY6: AIX
+2013-11-04 00:30:24   Server Version 6, Release 2, Level 4.0
+2013-11-04 00:30:24   Server date/time: 2013-11-04 14:54:12  Last access: 2013-11-04 10:51:48
+
+2013-11-04 00:30:24 --- SCHEDULEREC QUERY BEGIN
+2013-11-04 00:30:25 --- SCHEDULEREC QUERY END
+2013-11-04 00:30:25 Next operation scheduled:
+2013-11-04 00:30:25 ------------------------------------------------------------
+2013-11-04 00:30:25 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-04 00:30:25 Action:                Incremental
+2013-11-04 00:30:25 Objects:               
+2013-11-04 00:30:25 Options:               
+2013-11-04 00:30:25 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-04 00:30:25 ------------------------------------------------------------
+2013-11-04 00:30:25 Schedule will be refreshed in 4 hours.
+2013-11-04 04:30:25 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-04 04:30:25 Querying server for next scheduled event.
+2013-11-04 04:30:25 Node Name: MOLLYSOILS
+2013-11-04 04:30:25 Session established with server BUCKY6: AIX
+2013-11-04 04:30:25   Server Version 6, Release 2, Level 4.0
+2013-11-04 04:30:25   Server date/time: 2013-11-04 18:56:35  Last access: 2013-11-04 14:54:12
+
+2013-11-04 04:30:25 --- SCHEDULEREC QUERY BEGIN
+2013-11-04 04:30:25 --- SCHEDULEREC QUERY END
+2013-11-04 04:30:25 Next operation scheduled:
+2013-11-04 04:30:25 ------------------------------------------------------------
+2013-11-04 04:30:25 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-04 04:30:25 Action:                Incremental
+2013-11-04 04:30:25 Objects:               
+2013-11-04 04:30:25 Options:               
+2013-11-04 04:30:25 Server Window Start:   22:30:00 on 2013-11-04
+2013-11-04 04:30:25 ------------------------------------------------------------
+2013-11-04 04:30:25 Command will be executed in 3 hours and 38 minutes.
+2013-11-04 08:08:25 
+Executing scheduled command now.
+2013-11-04 08:08:25 Node Name: MOLLYSOILS
+2013-11-04 08:08:25 Session established with server BUCKY6: AIX
+2013-11-04 08:08:25   Server Version 6, Release 2, Level 4.0
+2013-11-04 08:08:25   Server date/time: 2013-11-04 22:36:45  Last access: 2013-11-04 18:56:35
+
+2013-11-04 08:08:25 --- SCHEDULEREC OBJECT BEGIN NIGHTLY-PRODUCTION-BACKUPS 2013-11-04 22:30:00
+2013-11-04 08:08:26 Incremental backup of volume '/'
+2013-11-04 08:09:34 ANS1898I ***** Processed     1,500 files *****
+2013-11-04 08:09:35 ANS1898I ***** Processed     7,000 files *****
+2013-11-04 08:09:36 ANS1898I ***** Processed    13,500 files *****
+2013-11-04 08:09:37 ANS1898I ***** Processed    20,500 files *****
+2013-11-04 08:09:38 ANS1898I ***** Processed    28,000 files *****
+2013-11-04 08:09:39 ANS1898I ***** Processed    35,500 files *****
+2013-11-04 08:10:08 ANS1898I ***** Processed    45,000 files *****
+2013-11-04 08:10:09 ANS1898I ***** Processed    56,500 files *****
+2013-11-04 08:10:10 ANS1898I ***** Processed    69,500 files *****
+2013-11-04 08:10:11 ANS1898I ***** Processed    77,000 files *****
+2013-11-04 08:10:12 ANS1898I ***** Processed    82,500 files *****
+2013-11-04 08:10:36 ANS1898I ***** Processed    88,000 files *****
+2013-11-04 08:10:37 ANS1898I ***** Processed    91,000 files *****
+2013-11-04 08:10:38 ANS1898I ***** Processed    93,000 files *****
+2013-11-04 08:11:28 ANS1898I ***** Processed    95,000 files *****
+2013-11-04 08:11:29 ANS1898I ***** Processed    98,000 files *****
+2013-11-04 08:11:30 ANS1898I ***** Processed   106,000 files *****
+2013-11-04 08:11:31 ANS1898I ***** Processed   112,500 files *****
+2013-11-04 08:11:32 ANS1898I ***** Processed   115,500 files *****
+2013-11-04 08:11:33 ANS1898I ***** Processed   120,000 files *****
+2013-11-04 08:11:55 Directory-->               4,096 / [Sent]      
+2013-11-04 08:11:55 Normal File-->               139 /opt/tivoli/tsm/client/ba/bin/tsmstats.ini [Sent]      
+2013-11-04 08:11:55 Normal File-->             1,185 /var/lib/logrotate/status [Sent]      
+2013-11-04 08:11:55 Normal File-->         3,673,483 /var/lib/mlocate/mlocate.db [Sent]      
+2013-11-04 08:12:02 Normal File-->        49,450,160 /var/lib/mysql/asos_dump.txt [Sent]      
+2013-11-04 08:12:02 Normal File-->               801 /var/lib/mysql/barak_dump.txt [Sent]      
+2013-11-04 08:12:02 Normal File-->               800 /var/lib/mysql/bugs_dump.txt [Sent]      
+2013-11-04 08:12:02 Normal File-->               806 /var/lib/mysql/cons-train_dump.txt [Sent]      
+2013-11-04 08:12:02 Normal File-->               800 /var/lib/mysql/coop_dump.txt [Sent]      
+2013-11-04 08:12:02 Normal File-->            92,664 /var/lib/mysql/extension_dump.txt.gz [Sent]      
+2013-11-04 08:12:02 Normal File-->            92,664 /var/lib/mysql/extension_dump_delete.txt.gz [Sent]      
+2013-11-04 08:12:02 Normal File-->            92,663 /var/lib/mysql/extension_dump_previous.txt.gz [Sent]      
+2013-11-04 08:12:03 Normal File-->        49,047,255 /var/lib/mysql/aws_dump.txt [Sent]      
+2013-11-04 08:12:03 Normal File-->               769 /var/lib/mysql/insolation_dump.txt.gz [Sent]      
+2013-11-04 08:12:03 Normal File-->               768 /var/lib/mysql/insolation_dump_delete.txt.gz [Sent]      
+2013-11-04 08:12:03 Normal File-->               768 /var/lib/mysql/insolation_dump_previous.txt.gz [Sent]      
+2013-11-04 08:12:03 Normal File-->             7,630 /var/lib/mysql/mysql_dump.txt.gz [Sent]      
+2013-11-04 08:12:03 Normal File-->             7,634 /var/lib/mysql/mysql_dump_delete.txt.gz [Sent]      
+2013-11-04 08:12:03 Normal File-->             7,632 /var/lib/mysql/mysql_dump_previous.txt.gz [Sent]      
+2013-11-04 08:12:09 Normal File-->        41,827,850 /var/lib/mysql/grids_dump.txt [Sent]      
+2013-11-04 08:12:10 Normal File-->            65,267 /var/lib/mysql/soils_dump.txt.gz [Sent]      
+2013-11-04 08:12:10 Normal File-->            65,267 /var/lib/mysql/soils_dump_delete.txt.gz [Sent]      
+2013-11-04 08:12:10 Normal File-->            65,267 /var/lib/mysql/soils_dump_previous.txt.gz [Sent]      
+2013-11-04 08:12:12 Normal File-->        46,904,480 /var/lib/mysql/opu_dump.txt [Sent]      
+2013-11-04 08:12:12 Normal File-->         4,591,060 /var/lib/mysql/transect_dump.txt.gz [Sent]      
+2013-11-04 08:12:14 Normal File-->         4,591,059 /var/lib/mysql/transect_dump_delete.txt.gz [Sent]      
+2013-11-04 08:12:17 Normal File-->         4,591,060 /var/lib/mysql/transect_dump_previous.txt.gz [Sent]      
+2013-11-04 08:12:17 Normal File-->           142,273 /var/lib/mysql/turfwebsite_dump.txt.gz [Sent]      
+2013-11-04 08:12:17 Normal File-->           142,272 /var/lib/mysql/turfwebsite_dump_delete.txt.gz [Sent]      
+2013-11-04 08:12:17 Normal File-->           142,272 /var/lib/mysql/turfwebsite_dump_previous.txt.gz [Sent]      
+2013-11-04 08:12:27 ANS1898I ***** Processed   120,500 files *****
+2013-11-04 08:12:43 Normal File-->         1,657,200 /var/lib/mysql/aws/t_401.MYD [Sent]      
+2013-11-04 08:12:44 ANS1898I ***** Processed   122,000 files *****
+2013-11-04 08:12:44 Normal File-->         1,373,184 /var/lib/mysql/aws/t_401.MYI [Sent]      
+2013-11-04 08:12:45 ANS1898I ***** Processed   124,000 files *****
+2013-11-04 08:12:46 ANS1898I ***** Processed   127,500 files *****
+2013-11-04 08:12:47 ANS1898I ***** Processed   133,000 files *****
+2013-11-04 08:12:48 ANS1898I ***** Processed   136,500 files *****
+2013-11-04 08:12:50 ANS1898I ***** Processed   139,000 files *****
+2013-11-04 08:12:51 ANS1898I ***** Processed   142,000 files *****
+2013-11-04 08:12:52 ANS1898I ***** Processed   145,000 files *****
+2013-11-04 08:12:53 ANS1898I ***** Processed   147,000 files *****
+2013-11-04 08:12:55 ANS1898I ***** Processed   150,000 files *****
+2013-11-04 08:12:56 ANS1898I ***** Processed   150,500 files *****
+2013-11-04 08:13:39 Normal File-->       135,123,657 /var/lib/mysql/aws/t_403.MYD [Sent]      
+2013-11-04 08:13:47 Normal File-->        33,205,248 /var/lib/mysql/aws/t_403.MYI [Sent]      
+2013-11-04 08:13:51 Normal File-->        10,220,400 /var/lib/mysql/aws/t_411.MYD [Sent]      
+2013-11-04 08:13:52 Normal File-->         1,271,808 /var/lib/mysql/aws/t_411.MYI [Sent]      
+2013-11-04 08:13:53 Normal File-->         4,363,710 /var/lib/mysql/aws/t_412.MYD [Sent]      
+2013-11-04 08:13:54 Normal File-->           986,112 /var/lib/mysql/aws/t_412.MYI [Sent]      
+2013-11-04 08:14:02 Normal File-->        27,378,981 /var/lib/mysql/grids/WiMnDAveTAir.MYD [Sent]      
+2013-11-04 08:14:02 Normal File-->         1,939,456 /var/lib/mysql/grids/WiMnDAveTAir.MYI [Sent]      
+2013-11-04 08:14:07 Normal File-->        18,076,968 /var/lib/mysql/grids/WiMnDET.MYD [Sent]      
+2013-11-04 08:14:07 Normal File-->         1,217,536 /var/lib/mysql/grids/WiMnDET.MYI [Sent]      
+2013-11-04 08:14:15 Normal File-->        27,374,709 /var/lib/mysql/grids/WiMnDMaxTAir.MYD [Sent]      
+2013-11-04 08:14:16 Normal File-->         1,941,504 /var/lib/mysql/grids/WiMnDMaxTAir.MYI  Changed
+2013-11-04 08:14:16 Retry # 1  Normal File-->         1,941,504 /var/lib/mysql/grids/WiMnDMaxTAir.MYI  Changed
+2013-11-04 08:14:17 Retry # 2  Normal File-->         1,941,504 /var/lib/mysql/grids/WiMnDMaxTAir.MYI [Sent]      
+2013-11-04 08:14:25 Normal File-->        27,378,981 /var/lib/mysql/grids/WiMnDMinTAir.MYD [Sent]      
+2013-11-04 08:14:25 Normal File-->         1,939,456 /var/lib/mysql/grids/WiMnDMinTAir.MYI [Sent]      
+2013-11-04 08:15:04 Normal File-->        96,642,180 /var/lib/mysql/opu/hyd.MYD [Sent]      
+2013-11-04 08:15:49 Normal File-->       109,353,984 /var/lib/mysql/opu/hyd.MYI [Sent]      
+2013-11-04 08:15:49 Normal File-->             1,024 /var/lib/postfix/prng_exch [Sent]      
+2013-11-04 08:15:50 Normal File-->         4,097,027 /var/mail/root [Sent]      
+2013-11-04 08:17:27 Normal File-->     1,121,225,728 /var/lib/mysql/asos/asosData.MYI [Sent]      
+2013-11-04 08:17:47 Normal File-->     1,720,256,764 /var/lib/mysql/asos/asosData.MYD [Sent]      
+2013-11-04 08:17:47 Successful incremental backup of '/'
+
+2013-11-04 08:17:47 --- SCHEDULEREC STATUS BEGIN
+2013-11-04 08:17:47 Total number of objects inspected:  150,915
+2013-11-04 08:17:47 Total number of objects backed up:       52
+2013-11-04 08:17:47 Total number of objects updated:          0
+2013-11-04 08:17:47 Total number of objects rebound:          0
+2013-11-04 08:17:47 Total number of objects deleted:          0
+2013-11-04 08:17:47 Total number of objects expired:          0
+2013-11-04 08:17:47 Total number of objects failed:           0
+2013-11-04 08:17:47 Total number of bytes transferred:    1.17 GB
+2013-11-04 08:17:47 Data transfer time:                  374.43 sec
+2013-11-04 08:17:47 Network data transfer rate:        3,289.97 KB/sec
+2013-11-04 08:17:47 Aggregate data transfer rate:      2,192.42 KB/sec
+2013-11-04 08:17:47 Objects compressed by:                   65%
+2013-11-04 08:17:47 Elapsed processing time:           00:09:21
+2013-11-04 08:17:47 --- SCHEDULEREC STATUS END
+2013-11-04 08:17:47 --- SCHEDULEREC OBJECT END NIGHTLY-PRODUCTION-BACKUPS 2013-11-04 22:30:00
+2013-11-04 08:17:47 Scheduled event 'NIGHTLY-PRODUCTION-BACKUPS' completed successfully.
+2013-11-04 08:17:47 Sending results for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+2013-11-04 08:17:47 Results sent to server for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+
+2013-11-04 08:17:47 ANS1483I Schedule log pruning started.
+2013-11-04 08:17:47 ANS1484I Schedule log pruning finished successfully.
+2013-11-04 08:17:47 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-04 08:17:47 Querying server for next scheduled event.
+2013-11-04 08:17:47 Node Name: MOLLYSOILS
+2013-11-04 08:17:48 Session established with server BUCKY6: AIX
+2013-11-04 08:17:48   Server Version 6, Release 2, Level 4.0
+2013-11-04 08:17:48   Server date/time: 2013-11-04 22:46:09  Last access: 2013-11-04 22:40:46
+
+2013-11-04 08:17:48 --- SCHEDULEREC QUERY BEGIN
+2013-11-04 08:17:48 --- SCHEDULEREC QUERY END
+2013-11-04 08:17:48 Next operation scheduled:
+2013-11-04 08:17:48 ------------------------------------------------------------
+2013-11-04 08:17:48 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-04 08:17:48 Action:                Incremental
+2013-11-04 08:17:48 Objects:               
+2013-11-04 08:17:48 Options:               
+2013-11-04 08:17:48 Server Window Start:   22:30:00 on 2013-11-05
+2013-11-04 08:17:48 ------------------------------------------------------------
+2013-11-04 08:17:48 Schedule will be refreshed in 4 hours.
+2013-11-04 12:17:48 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-04 12:17:48 Querying server for next scheduled event.
+2013-11-04 12:17:48 Node Name: MOLLYSOILS
+2013-11-04 12:17:48 Session established with server BUCKY6: AIX
+2013-11-04 12:17:48   Server Version 6, Release 2, Level 4.0
+2013-11-04 12:17:48   Server date/time: 2013-11-05 02:49:10  Last access: 2013-11-04 22:46:09
+
+2013-11-04 12:17:48 --- SCHEDULEREC QUERY BEGIN
+2013-11-04 12:17:48 --- SCHEDULEREC QUERY END
+2013-11-04 12:17:48 Next operation scheduled:
+2013-11-04 12:17:48 ------------------------------------------------------------
+2013-11-04 12:17:48 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-04 12:17:48 Action:                Incremental
+2013-11-04 12:17:48 Objects:               
+2013-11-04 12:17:48 Options:               
+2013-11-04 12:17:48 Server Window Start:   22:30:00 on 2013-11-05
+2013-11-04 12:17:48 ------------------------------------------------------------
+2013-11-04 12:17:48 Schedule will be refreshed in 4 hours.
+2013-11-04 16:17:48 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-04 16:17:48 Querying server for next scheduled event.
+2013-11-04 16:17:48 Node Name: MOLLYSOILS
+2013-11-04 16:17:48 Session established with server BUCKY6: AIX
+2013-11-04 16:17:48   Server Version 6, Release 2, Level 4.0
+2013-11-04 16:17:48   Server date/time: 2013-11-05 06:51:25  Last access: 2013-11-05 02:49:10
+
+2013-11-04 16:17:48 --- SCHEDULEREC QUERY BEGIN
+2013-11-04 16:17:48 --- SCHEDULEREC QUERY END
+2013-11-04 16:17:48 Next operation scheduled:
+2013-11-04 16:17:48 ------------------------------------------------------------
+2013-11-04 16:17:48 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-04 16:17:48 Action:                Incremental
+2013-11-04 16:17:48 Objects:               
+2013-11-04 16:17:48 Options:               
+2013-11-04 16:17:48 Server Window Start:   22:30:00 on 2013-11-05
+2013-11-04 16:17:48 ------------------------------------------------------------
+2013-11-04 16:17:48 Schedule will be refreshed in 4 hours.
+2013-11-04 20:17:48 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-04 20:17:48 Querying server for next scheduled event.
+2013-11-04 20:17:48 Node Name: MOLLYSOILS
+2013-11-04 20:17:48 Session established with server BUCKY6: AIX
+2013-11-04 20:17:48   Server Version 6, Release 2, Level 4.0
+2013-11-04 20:17:48   Server date/time: 2013-11-05 10:53:49  Last access: 2013-11-05 06:51:25
+
+2013-11-04 20:17:48 --- SCHEDULEREC QUERY BEGIN
+2013-11-04 20:17:48 --- SCHEDULEREC QUERY END
+2013-11-04 20:17:48 Next operation scheduled:
+2013-11-04 20:17:48 ------------------------------------------------------------
+2013-11-04 20:17:48 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-04 20:17:48 Action:                Incremental
+2013-11-04 20:17:48 Objects:               
+2013-11-04 20:17:48 Options:               
+2013-11-04 20:17:48 Server Window Start:   22:30:00 on 2013-11-05
+2013-11-04 20:17:48 ------------------------------------------------------------
+2013-11-04 20:17:48 Schedule will be refreshed in 4 hours.
+2013-11-05 00:17:48 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-05 00:17:48 Querying server for next scheduled event.
+2013-11-05 00:17:48 Node Name: MOLLYSOILS
+2013-11-05 00:17:48 Session established with server BUCKY6: AIX
+2013-11-05 00:17:48   Server Version 6, Release 2, Level 4.0
+2013-11-05 00:17:48   Server date/time: 2013-11-05 14:56:10  Last access: 2013-11-05 10:53:49
+
+2013-11-05 00:17:48 --- SCHEDULEREC QUERY BEGIN
+2013-11-05 00:17:48 --- SCHEDULEREC QUERY END
+2013-11-05 00:17:48 Next operation scheduled:
+2013-11-05 00:17:48 ------------------------------------------------------------
+2013-11-05 00:17:48 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-05 00:17:48 Action:                Incremental
+2013-11-05 00:17:48 Objects:               
+2013-11-05 00:17:48 Options:               
+2013-11-05 00:17:48 Server Window Start:   22:30:00 on 2013-11-05
+2013-11-05 00:17:48 ------------------------------------------------------------
+2013-11-05 00:17:48 Schedule will be refreshed in 4 hours.
+2013-11-05 04:17:48 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-05 04:17:48 Querying server for next scheduled event.
+2013-11-05 04:17:48 Node Name: MOLLYSOILS
+2013-11-05 04:17:48 Session established with server BUCKY6: AIX
+2013-11-05 04:17:48   Server Version 6, Release 2, Level 4.0
+2013-11-05 04:17:48   Server date/time: 2013-11-05 18:58:31  Last access: 2013-11-05 14:56:10
+
+2013-11-05 04:17:48 --- SCHEDULEREC QUERY BEGIN
+2013-11-05 04:17:48 --- SCHEDULEREC QUERY END
+2013-11-05 04:17:48 Next operation scheduled:
+2013-11-05 04:17:48 ------------------------------------------------------------
+2013-11-05 04:17:48 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-05 04:17:48 Action:                Incremental
+2013-11-05 04:17:48 Objects:               
+2013-11-05 04:17:48 Options:               
+2013-11-05 04:17:48 Server Window Start:   22:30:00 on 2013-11-05
+2013-11-05 04:17:48 ------------------------------------------------------------
+2013-11-05 04:17:48 Command will be executed in 3 hours and 49 minutes.
+2013-11-05 08:06:48 
+Executing scheduled command now.
+2013-11-05 08:06:48 Node Name: MOLLYSOILS
+2013-11-05 08:06:48 Session established with server BUCKY6: AIX
+2013-11-05 08:06:48   Server Version 6, Release 2, Level 4.0
+2013-11-05 08:06:48   Server date/time: 2013-11-05 22:49:40  Last access: 2013-11-05 18:58:31
+
+2013-11-05 08:06:48 --- SCHEDULEREC OBJECT BEGIN NIGHTLY-PRODUCTION-BACKUPS 2013-11-05 22:30:00
+2013-11-05 08:06:48 Incremental backup of volume '/'
+2013-11-05 08:07:27 ANS1898I ***** Processed     1,000 files *****
+2013-11-05 08:07:28 ANS1898I ***** Processed     4,500 files *****
+2013-11-05 08:07:29 ANS1898I ***** Processed    10,500 files *****
+2013-11-05 08:07:30 ANS1898I ***** Processed    17,500 files *****
+2013-11-05 08:07:31 ANS1898I ***** Processed    24,500 files *****
+2013-11-05 08:07:32 ANS1898I ***** Processed    31,500 files *****
+2013-11-05 08:07:33 ANS1898I ***** Processed    41,000 files *****
+2013-11-05 08:07:34 ANS1898I ***** Processed    51,500 files *****
+2013-11-05 08:07:35 ANS1898I ***** Processed    65,500 files *****
+2013-11-05 08:07:36 ANS1898I ***** Processed    73,000 files *****
+2013-11-05 08:07:37 ANS1898I ***** Processed    80,000 files *****
+2013-11-05 08:07:38 ANS1898I ***** Processed    84,500 files *****
+2013-11-05 08:07:39 ANS1898I ***** Processed    90,500 files *****
+2013-11-05 08:07:40 ANS1898I ***** Processed    95,500 files *****
+2013-11-05 08:07:41 ANS1898I ***** Processed    98,500 files *****
+2013-11-05 08:07:42 ANS1898I ***** Processed   107,000 files *****
+2013-11-05 08:07:43 ANS1898I ***** Processed   114,000 files *****
+2013-11-05 08:07:44 ANS1898I ***** Processed   120,000 files *****
+2013-11-05 08:07:44 Directory-->               4,096 / [Sent]      
+2013-11-05 08:07:44 Normal File-->               139 /opt/tivoli/tsm/client/ba/bin/tsmstats.ini [Sent]      
+2013-11-05 08:07:44 Normal File-->             1,185 /var/lib/logrotate/status [Sent]      
+2013-11-05 08:07:45 Normal File-->         3,673,483 /var/lib/mlocate/mlocate.db [Sent]      
+2013-11-05 08:07:48 Normal File-->        48,765,097 /var/lib/mysql/asos_dump.txt [Sent]      
+2013-11-05 08:07:54 Normal File-->        48,244,502 /var/lib/mysql/aws_dump.txt [Sent]      
+2013-11-05 08:07:54 Normal File-->               801 /var/lib/mysql/barak_dump.txt [Sent]      
+2013-11-05 08:07:54 Normal File-->               800 /var/lib/mysql/bugs_dump.txt [Sent]      
+2013-11-05 08:07:54 Normal File-->               806 /var/lib/mysql/cons-train_dump.txt [Sent]      
+2013-11-05 08:07:54 Normal File-->               800 /var/lib/mysql/coop_dump.txt [Sent]      
+2013-11-05 08:07:54 Normal File-->            92,664 /var/lib/mysql/extension_dump.txt.gz [Sent]      
+2013-11-05 08:07:54 Normal File-->            92,663 /var/lib/mysql/extension_dump_delete.txt.gz [Sent]      
+2013-11-05 08:07:54 Normal File-->            92,664 /var/lib/mysql/extension_dump_previous.txt.gz [Sent]      
+2013-11-05 08:07:58 Normal File-->        43,875,638 /var/lib/mysql/grids_dump.txt [Sent]      
+2013-11-05 08:07:58 Normal File-->               768 /var/lib/mysql/insolation_dump.txt.gz [Sent]      
+2013-11-05 08:07:58 Normal File-->               768 /var/lib/mysql/insolation_dump_delete.txt.gz [Sent]      
+2013-11-05 08:07:58 Normal File-->               769 /var/lib/mysql/insolation_dump_previous.txt.gz [Sent]      
+2013-11-05 08:07:58 Normal File-->             7,633 /var/lib/mysql/mysql_dump.txt.gz [Sent]      
+2013-11-05 08:07:58 Normal File-->             7,632 /var/lib/mysql/mysql_dump_delete.txt.gz [Sent]      
+2013-11-05 08:07:58 Normal File-->             7,630 /var/lib/mysql/mysql_dump_previous.txt.gz [Sent]      
+2013-11-05 08:08:04 Normal File-->        48,635,341 /var/lib/mysql/opu_dump.txt [Sent]      
+2013-11-05 08:08:04 Normal File-->            65,267 /var/lib/mysql/soils_dump.txt.gz [Sent]      
+2013-11-05 08:08:04 Normal File-->            65,267 /var/lib/mysql/soils_dump_delete.txt.gz [Sent]      
+2013-11-05 08:08:04 Normal File-->            65,267 /var/lib/mysql/soils_dump_previous.txt.gz [Sent]      
+2013-11-05 08:08:05 Normal File-->         4,591,060 /var/lib/mysql/transect_dump.txt.gz [Sent]      
+2013-11-05 08:08:06 Normal File-->         4,591,060 /var/lib/mysql/transect_dump_delete.txt.gz [Sent]      
+2013-11-05 08:08:07 Normal File-->         4,591,060 /var/lib/mysql/transect_dump_previous.txt.gz [Sent]      
+2013-11-05 08:08:07 Normal File-->           142,272 /var/lib/mysql/turfwebsite_dump.txt.gz [Sent]      
+2013-11-05 08:08:07 Normal File-->           142,272 /var/lib/mysql/turfwebsite_dump_delete.txt.gz [Sent]      
+2013-11-05 08:08:07 Normal File-->           142,273 /var/lib/mysql/turfwebsite_dump_previous.txt.gz [Sent]      
+2013-11-05 08:08:31 ANS1898I ***** Processed   121,000 files *****
+2013-11-05 08:08:32 ANS1898I ***** Processed   124,000 files *****
+2013-11-05 08:08:32 Normal File-->         1,657,224 /var/lib/mysql/aws/t_401.MYD [Sent]      
+2013-11-05 08:08:32 Normal File-->         1,373,184 /var/lib/mysql/aws/t_401.MYI [Sent]      
+2013-11-05 08:08:33 ANS1898I ***** Processed   130,500 files *****
+2013-11-05 08:08:34 ANS1898I ***** Processed   135,500 files *****
+2013-11-05 08:08:35 ANS1898I ***** Processed   141,000 files *****
+2013-11-05 08:08:36 ANS1898I ***** Processed   145,000 files *****
+2013-11-05 08:08:37 ANS1898I ***** Processed   148,000 files *****
+2013-11-05 08:08:38 ANS1898I ***** Processed   150,500 files *****
+2013-11-05 08:09:23 Normal File-->       135,130,665 /var/lib/mysql/aws/t_403.MYD [Sent]      
+2013-11-05 08:09:31 Normal File-->        33,207,296 /var/lib/mysql/aws/t_403.MYI [Sent]      
+2013-11-05 08:09:35 Normal File-->        10,220,688 /var/lib/mysql/aws/t_411.MYD [Sent]      
+2013-11-05 08:09:36 Normal File-->         1,271,808 /var/lib/mysql/aws/t_411.MYI [Sent]      
+2013-11-05 08:09:37 Normal File-->         4,363,866 /var/lib/mysql/aws/t_412.MYD [Sent]      
+2013-11-05 08:09:38 Normal File-->           986,112 /var/lib/mysql/aws/t_412.MYI [Sent]      
+2013-11-05 08:09:45 Normal File-->        27,384,588 /var/lib/mysql/grids/WiMnDAveTAir.MYD [Sent]      
+2013-11-05 08:09:46 Normal File-->         1,939,456 /var/lib/mysql/grids/WiMnDAveTAir.MYI [Sent]      
+2013-11-05 08:09:51 Normal File-->        18,082,575 /var/lib/mysql/grids/WiMnDET.MYD [Sent]      
+2013-11-05 08:09:51 Normal File-->         1,217,536 /var/lib/mysql/grids/WiMnDET.MYI [Sent]      
+2013-11-05 08:09:59 Normal File-->        27,380,316 /var/lib/mysql/grids/WiMnDMaxTAir.MYD [Sent]      
+2013-11-05 08:09:59 Normal File-->         1,941,504 /var/lib/mysql/grids/WiMnDMaxTAir.MYI [Sent]      
+2013-11-05 08:10:07 Normal File-->        27,384,588 /var/lib/mysql/grids/WiMnDMinTAir.MYD [Sent]      
+2013-11-05 08:10:08 Normal File-->         1,939,456 /var/lib/mysql/grids/WiMnDMinTAir.MYI [Sent]      
+2013-11-05 08:10:44 Normal File-->        96,677,268 /var/lib/mysql/opu/hyd.MYD [Sent]      
+2013-11-05 08:11:29 Normal File-->       109,398,016 /var/lib/mysql/opu/hyd.MYI [Sent]      
+2013-11-05 08:11:29 Normal File-->             1,024 /var/lib/postfix/prng_exch  Changed
+2013-11-05 08:11:29 Retry # 1  Normal File-->             1,024 /var/lib/postfix/prng_exch [Sent]      
+2013-11-05 08:11:30 Normal File-->         4,105,609 /var/mail/root [Sent]      
+2013-11-05 08:12:57 Normal File-->     1,121,488,896 /var/lib/mysql/asos/asosData.MYI [Sent]      
+2013-11-05 08:13:09 Normal File-->     1,720,667,988 /var/lib/mysql/asos/asosData.MYD [Sent]      
+2013-11-05 08:13:09 Successful incremental backup of '/'
+
+2013-11-05 08:13:09 --- SCHEDULEREC STATUS BEGIN
+2013-11-05 08:13:09 Total number of objects inspected:  150,915
+2013-11-05 08:13:09 Total number of objects backed up:       52
+2013-11-05 08:13:09 Total number of objects updated:          0
+2013-11-05 08:13:09 Total number of objects rebound:          0
+2013-11-05 08:13:09 Total number of objects deleted:          0
+2013-11-05 08:13:09 Total number of objects expired:          0
+2013-11-05 08:13:09 Total number of objects failed:           0
+2013-11-05 08:13:09 Total number of bytes transferred:    1.17 GB
+2013-11-05 08:13:09 Data transfer time:                  365.90 sec
+2013-11-05 08:13:09 Network data transfer rate:        3,366.98 KB/sec
+2013-11-05 08:13:09 Aggregate data transfer rate:      3,230.10 KB/sec
+2013-11-05 08:13:09 Objects compressed by:                   65%
+2013-11-05 08:13:09 Elapsed processing time:           00:06:21
+2013-11-05 08:13:09 --- SCHEDULEREC STATUS END
+2013-11-05 08:13:09 --- SCHEDULEREC OBJECT END NIGHTLY-PRODUCTION-BACKUPS 2013-11-05 22:30:00
+2013-11-05 08:13:09 Scheduled event 'NIGHTLY-PRODUCTION-BACKUPS' completed successfully.
+2013-11-05 08:13:09 Sending results for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+2013-11-05 08:13:09 Results sent to server for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+
+2013-11-05 08:13:09 ANS1483I Schedule log pruning started.
+2013-11-05 08:13:09 ANS1484I Schedule log pruning finished successfully.
+2013-11-05 08:13:09 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-05 08:13:09 Querying server for next scheduled event.
+2013-11-05 08:13:09 Node Name: MOLLYSOILS
+2013-11-05 08:13:10 Session established with server BUCKY6: AIX
+2013-11-05 08:13:10   Server Version 6, Release 2, Level 4.0
+2013-11-05 08:13:10   Server date/time: 2013-11-05 22:56:02  Last access: 2013-11-05 22:51:23
+
+2013-11-05 08:13:10 --- SCHEDULEREC QUERY BEGIN
+2013-11-05 08:13:10 --- SCHEDULEREC QUERY END
+2013-11-05 08:13:10 Next operation scheduled:
+2013-11-05 08:13:10 ------------------------------------------------------------
+2013-11-05 08:13:10 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-05 08:13:10 Action:                Incremental
+2013-11-05 08:13:10 Objects:               
+2013-11-05 08:13:10 Options:               
+2013-11-05 08:13:10 Server Window Start:   22:30:00 on 2013-11-06
+2013-11-05 08:13:10 ------------------------------------------------------------
+2013-11-05 08:13:10 Schedule will be refreshed in 4 hours.
+2013-11-05 12:13:10 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-05 12:13:10 Querying server for next scheduled event.
+2013-11-05 12:13:10 Node Name: MOLLYSOILS
+2013-11-05 12:13:10 Session established with server BUCKY6: AIX
+2013-11-05 12:13:10   Server Version 6, Release 2, Level 4.0
+2013-11-05 12:13:10   Server date/time: 2013-11-06 02:59:06  Last access: 2013-11-05 22:56:02
+
+2013-11-05 12:13:10 --- SCHEDULEREC QUERY BEGIN
+2013-11-05 12:13:10 --- SCHEDULEREC QUERY END
+2013-11-05 12:13:10 Next operation scheduled:
+2013-11-05 12:13:10 ------------------------------------------------------------
+2013-11-05 12:13:10 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-05 12:13:10 Action:                Incremental
+2013-11-05 12:13:10 Objects:               
+2013-11-05 12:13:10 Options:               
+2013-11-05 12:13:10 Server Window Start:   22:30:00 on 2013-11-06
+2013-11-05 12:13:10 ------------------------------------------------------------
+2013-11-05 12:13:10 Schedule will be refreshed in 4 hours.
+2013-11-05 16:13:10 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-05 16:13:10 Querying server for next scheduled event.
+2013-11-05 16:13:10 Node Name: MOLLYSOILS
+2013-11-05 16:13:10 Session established with server BUCKY6: AIX
+2013-11-05 16:13:10   Server Version 6, Release 2, Level 4.0
+2013-11-05 16:13:10   Server date/time: 2013-11-06 07:01:24  Last access: 2013-11-06 02:59:06
+
+2013-11-05 16:13:10 --- SCHEDULEREC QUERY BEGIN
+2013-11-05 16:13:10 --- SCHEDULEREC QUERY END
+2013-11-05 16:13:10 Next operation scheduled:
+2013-11-05 16:13:10 ------------------------------------------------------------
+2013-11-05 16:13:10 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-05 16:13:10 Action:                Incremental
+2013-11-05 16:13:10 Objects:               
+2013-11-05 16:13:10 Options:               
+2013-11-05 16:13:10 Server Window Start:   22:30:00 on 2013-11-06
+2013-11-05 16:13:10 ------------------------------------------------------------
+2013-11-05 16:13:10 Schedule will be refreshed in 4 hours.
+2013-11-05 20:13:10 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-05 20:13:10 Querying server for next scheduled event.
+2013-11-05 20:13:10 Node Name: MOLLYSOILS
+2013-11-05 20:13:10 Session established with server BUCKY6: AIX
+2013-11-05 20:13:10   Server Version 6, Release 2, Level 4.0
+2013-11-05 20:13:10   Server date/time: 2013-11-06 11:03:52  Last access: 2013-11-06 07:01:24
+
+2013-11-05 20:13:10 --- SCHEDULEREC QUERY BEGIN
+2013-11-05 20:13:10 --- SCHEDULEREC QUERY END
+2013-11-05 20:13:10 Next operation scheduled:
+2013-11-05 20:13:10 ------------------------------------------------------------
+2013-11-05 20:13:10 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-05 20:13:10 Action:                Incremental
+2013-11-05 20:13:10 Objects:               
+2013-11-05 20:13:10 Options:               
+2013-11-05 20:13:10 Server Window Start:   22:30:00 on 2013-11-06
+2013-11-05 20:13:10 ------------------------------------------------------------
+2013-11-05 20:13:10 Schedule will be refreshed in 4 hours.
+2013-11-06 00:13:10 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-06 00:13:10 Querying server for next scheduled event.
+2013-11-06 00:13:10 Node Name: MOLLYSOILS
+2013-11-06 00:13:10 Session established with server BUCKY6: AIX
+2013-11-06 00:13:10   Server Version 6, Release 2, Level 4.0
+2013-11-06 00:13:10   Server date/time: 2013-11-06 15:06:18  Last access: 2013-11-06 11:03:52
+
+2013-11-06 00:13:10 --- SCHEDULEREC QUERY BEGIN
+2013-11-06 00:13:10 --- SCHEDULEREC QUERY END
+2013-11-06 00:13:10 Next operation scheduled:
+2013-11-06 00:13:10 ------------------------------------------------------------
+2013-11-06 00:13:10 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-06 00:13:10 Action:                Incremental
+2013-11-06 00:13:10 Objects:               
+2013-11-06 00:13:10 Options:               
+2013-11-06 00:13:10 Server Window Start:   22:30:00 on 2013-11-06
+2013-11-06 00:13:10 ------------------------------------------------------------
+2013-11-06 00:13:10 Schedule will be refreshed in 4 hours.
+2013-11-06 04:13:10 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-06 04:13:10 Querying server for next scheduled event.
+2013-11-06 04:13:10 Node Name: MOLLYSOILS
+2013-11-06 04:13:10 Session established with server BUCKY6: AIX
+2013-11-06 04:13:10   Server Version 6, Release 2, Level 4.0
+2013-11-06 04:13:10   Server date/time: 2013-11-06 19:08:42  Last access: 2013-11-06 15:06:18
+
+2013-11-06 04:13:10 --- SCHEDULEREC QUERY BEGIN
+2013-11-06 04:13:10 --- SCHEDULEREC QUERY END
+2013-11-06 04:13:10 Next operation scheduled:
+2013-11-06 04:13:10 ------------------------------------------------------------
+2013-11-06 04:13:10 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-06 04:13:10 Action:                Incremental
+2013-11-06 04:13:10 Objects:               
+2013-11-06 04:13:10 Options:               
+2013-11-06 04:13:10 Server Window Start:   22:30:00 on 2013-11-06
+2013-11-06 04:13:10 ------------------------------------------------------------
+2013-11-06 04:13:10 Schedule will be refreshed in 4 hours.
+2013-11-06 08:13:10 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-06 08:13:10 Querying server for next scheduled event.
+2013-11-06 08:13:10 Node Name: MOLLYSOILS
+2013-11-06 08:13:10 Session established with server BUCKY6: AIX
+2013-11-06 08:13:10   Server Version 6, Release 2, Level 4.0
+2013-11-06 08:13:10   Server date/time: 2013-11-06 23:11:04  Last access: 2013-11-06 19:08:42
+
+2013-11-06 08:13:10 --- SCHEDULEREC QUERY BEGIN
+2013-11-06 08:13:10 --- SCHEDULEREC QUERY END
+2013-11-06 08:13:10 Next operation scheduled:
+2013-11-06 08:13:10 ------------------------------------------------------------
+2013-11-06 08:13:10 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-06 08:13:10 Action:                Incremental
+2013-11-06 08:13:10 Objects:               
+2013-11-06 08:13:10 Options:               
+2013-11-06 08:13:10 Server Window Start:   22:30:00 on 2013-11-06
+2013-11-06 08:13:10 ------------------------------------------------------------
+2013-11-06 08:13:10 Command will be executed in 56 minutes.
+2013-11-06 09:09:10 
+Executing scheduled command now.
+2013-11-06 09:09:10 Node Name: MOLLYSOILS
+2013-11-06 09:09:10 Session established with server BUCKY6: AIX
+2013-11-06 09:09:10   Server Version 6, Release 2, Level 4.0
+2013-11-06 09:09:10   Server date/time: 2013-11-07 00:07:35  Last access: 2013-11-06 23:11:04
+
+2013-11-06 09:09:10 --- SCHEDULEREC OBJECT BEGIN NIGHTLY-PRODUCTION-BACKUPS 2013-11-06 22:30:00
+2013-11-06 09:09:10 Incremental backup of volume '/'
+2013-11-06 09:10:01 ANS1898I ***** Processed     1,000 files *****
+2013-11-06 09:10:02 ANS1898I ***** Processed     5,500 files *****
+2013-11-06 09:10:03 ANS1898I ***** Processed    11,000 files *****
+2013-11-06 09:10:04 ANS1898I ***** Processed    16,500 files *****
+2013-11-06 09:10:05 ANS1898I ***** Processed    23,000 files *****
+2013-11-06 09:10:06 ANS1898I ***** Processed    27,500 files *****
+2013-11-06 09:10:23 ANS1898I ***** Processed    31,500 files *****
+2013-11-06 09:10:24 ANS1898I ***** Processed    38,500 files *****
+2013-11-06 09:10:25 ANS1898I ***** Processed    44,500 files *****
+2013-11-06 09:10:26 ANS1898I ***** Processed    50,500 files *****
+2013-11-06 09:10:27 ANS1898I ***** Processed    58,000 files *****
+2013-11-06 09:10:47 ANS1898I ***** Processed    67,000 files *****
+2013-11-06 09:10:48 ANS1898I ***** Processed    72,500 files *****
+2013-11-06 09:10:49 ANS1898I ***** Processed    77,500 files *****
+2013-11-06 09:10:50 ANS1898I ***** Processed    79,500 files *****
+2013-11-06 09:10:51 ANS1898I ***** Processed    82,500 files *****
+2013-11-06 09:11:11 ANS1898I ***** Processed    83,000 files *****
+2013-11-06 09:11:38 ANS1898I ***** Processed    84,500 files *****
+2013-11-06 09:11:39 ANS1898I ***** Processed    91,000 files *****
+2013-11-06 09:11:40 ANS1898I ***** Processed    97,000 files *****
+2013-11-06 09:11:41 ANS1898I ***** Processed   103,000 files *****
+2013-11-06 09:11:42 ANS1898I ***** Processed   110,000 files *****
+2013-11-06 09:11:43 ANS1898I ***** Processed   113,500 files *****
+2013-11-06 09:12:01 ANS1898I ***** Processed   117,500 files *****
+2013-11-06 09:12:02 ANS1898I ***** Processed   120,000 files *****
+2013-11-06 09:12:02 Directory-->               4,096 / [Sent]      
+2013-11-06 09:12:02 Normal File-->               139 /opt/tivoli/tsm/client/ba/bin/tsmstats.ini [Sent]      
+2013-11-06 09:12:02 Normal File-->             1,185 /var/lib/logrotate/status [Sent]      
+2013-11-06 09:12:02 Normal File-->         3,673,483 /var/lib/mlocate/mlocate.db [Sent]      
+2013-11-06 09:12:06 Normal File-->        50,117,385 /var/lib/mysql/asos_dump.txt [Sent]      
+2013-11-06 09:12:21 Normal File-->               801 /var/lib/mysql/barak_dump.txt [Sent]      
+2013-11-06 09:12:33 Normal File-->               800 /var/lib/mysql/bugs_dump.txt [Sent]      
+2013-11-06 09:12:33 Normal File-->               806 /var/lib/mysql/cons-train_dump.txt [Sent]      
+2013-11-06 09:12:33 Normal File-->               800 /var/lib/mysql/coop_dump.txt [Sent]      
+2013-11-06 09:12:33 Normal File-->            92,664 /var/lib/mysql/extension_dump.txt.gz [Sent]      
+2013-11-06 09:12:33 Normal File-->            92,664 /var/lib/mysql/extension_dump_delete.txt.gz [Sent]      
+2013-11-06 09:12:34 Normal File-->            92,664 /var/lib/mysql/extension_dump_previous.txt.gz [Sent]      
+2013-11-06 09:12:34 Normal File-->               768 /var/lib/mysql/insolation_dump.txt.gz [Sent]      
+2013-11-06 09:12:34 Normal File-->               769 /var/lib/mysql/insolation_dump_delete.txt.gz [Sent]      
+2013-11-06 09:12:34 Normal File-->               768 /var/lib/mysql/insolation_dump_previous.txt.gz [Sent]      
+2013-11-06 09:12:34 Normal File-->             7,634 /var/lib/mysql/mysql_dump.txt.gz [Sent]      
+2013-11-06 09:12:34 Normal File-->             7,630 /var/lib/mysql/mysql_dump_delete.txt.gz [Sent]      
+2013-11-06 09:12:34 Normal File-->             7,633 /var/lib/mysql/mysql_dump_previous.txt.gz [Sent]      
+2013-11-06 09:12:46 ANS1898I ***** Processed   120,500 files *****
+2013-11-06 09:12:46 Normal File-->        48,263,340 /var/lib/mysql/grids_dump.txt [Sent]      
+2013-11-06 09:12:46 Normal File-->            65,267 /var/lib/mysql/soils_dump.txt.gz [Sent]      
+2013-11-06 09:12:46 Normal File-->            65,267 /var/lib/mysql/soils_dump_delete.txt.gz [Sent]      
+2013-11-06 09:12:46 Normal File-->            65,267 /var/lib/mysql/soils_dump_previous.txt.gz [Sent]      
+2013-11-06 09:12:46 Normal File-->        49,857,280 /var/lib/mysql/aws_dump.txt [Sent]      
+2013-11-06 09:12:48 ANS1898I ***** Processed   121,000 files *****
+2013-11-06 09:12:48 Normal File-->        49,706,064 /var/lib/mysql/opu_dump.txt [Sent]      
+2013-11-06 09:12:49 Normal File-->         4,591,059 /var/lib/mysql/transect_dump.txt.gz [Sent]      
+2013-11-06 09:12:53 Normal File-->         4,591,060 /var/lib/mysql/transect_dump_delete.txt.gz [Sent]      
+2013-11-06 09:12:57 Normal File-->         4,591,060 /var/lib/mysql/transect_dump_previous.txt.gz [Sent]      
+2013-11-06 09:12:57 Normal File-->           142,273 /var/lib/mysql/turfwebsite_dump.txt.gz [Sent]      
+2013-11-06 09:12:57 Normal File-->           142,273 /var/lib/mysql/turfwebsite_dump_delete.txt.gz [Sent]      
+2013-11-06 09:12:57 Normal File-->           142,272 /var/lib/mysql/turfwebsite_dump_previous.txt.gz [Sent]      
+2013-11-06 09:12:59 ANS1898I ***** Processed   122,000 files *****
+2013-11-06 09:12:59 Normal File-->         1,661,520 /var/lib/mysql/aws/t_401.MYD [Sent]      
+2013-11-06 09:12:59 Normal File-->         1,376,256 /var/lib/mysql/aws/t_401.MYI [Sent]      
+2013-11-06 09:13:00 ANS1898I ***** Processed   123,500 files *****
+2013-11-06 09:13:01 ANS1898I ***** Processed   124,000 files *****
+2013-11-06 09:13:02 ANS1898I ***** Processed   130,500 files *****
+2013-11-06 09:13:03 ANS1898I ***** Processed   134,000 files *****
+2013-11-06 09:13:06 ANS1898I ***** Processed   136,500 files *****
+2013-11-06 09:13:07 ANS1898I ***** Processed   139,000 files *****
+2013-11-06 09:13:08 ANS1898I ***** Processed   141,000 files *****
+2013-11-06 09:13:10 ANS1898I ***** Processed   144,500 files *****
+2013-11-06 09:13:11 ANS1898I ***** Processed   147,500 files *****
+2013-11-06 09:13:12 ANS1898I ***** Processed   150,500 files *****
+2013-11-06 09:13:55 Normal File-->       135,137,673 /var/lib/mysql/aws/t_403.MYD [Sent]      
+2013-11-06 09:14:03 Normal File-->        33,209,344 /var/lib/mysql/aws/t_403.MYI [Sent]      
+2013-11-06 09:14:08 Normal File-->        10,220,976 /var/lib/mysql/aws/t_411.MYD [Sent]      
+2013-11-06 09:14:08 Normal File-->         1,271,808 /var/lib/mysql/aws/t_411.MYI [Sent]      
+2013-11-06 09:14:10 Normal File-->         4,364,022 /var/lib/mysql/aws/t_412.MYD [Sent]      
+2013-11-06 09:14:10 Normal File-->           986,112 /var/lib/mysql/aws/t_412.MYI [Sent]      
+2013-11-06 09:14:18 Normal File-->        27,390,195 /var/lib/mysql/grids/WiMnDAveTAir.MYD [Sent]      
+2013-11-06 09:14:18 Normal File-->         1,939,456 /var/lib/mysql/grids/WiMnDAveTAir.MYI [Sent]      
+2013-11-06 09:14:23 Normal File-->        18,088,182 /var/lib/mysql/grids/WiMnDET.MYD [Sent]      
+2013-11-06 09:14:23 Normal File-->         1,217,536 /var/lib/mysql/grids/WiMnDET.MYI [Sent]      
+2013-11-06 09:14:31 Normal File-->        27,385,923 /var/lib/mysql/grids/WiMnDMaxTAir.MYD [Sent]      
+2013-11-06 09:14:31 Normal File-->         1,941,504 /var/lib/mysql/grids/WiMnDMaxTAir.MYI [Sent]      
+2013-11-06 09:14:39 Normal File-->        27,390,195 /var/lib/mysql/grids/WiMnDMinTAir.MYD [Sent]      
+2013-11-06 09:14:39 Normal File-->         1,939,456 /var/lib/mysql/grids/WiMnDMinTAir.MYI [Sent]      
+2013-11-06 09:15:15 Normal File-->        96,713,824 /var/lib/mysql/opu/hyd.MYD [Sent]      
+2013-11-06 09:15:58 Normal File-->       109,443,072 /var/lib/mysql/opu/hyd.MYI [Sent]      
+2013-11-06 09:15:58 Normal File-->             1,024 /var/lib/postfix/prng_exch  Changed
+2013-11-06 09:15:58 Retry # 1  Normal File-->             1,024 /var/lib/postfix/prng_exch [Sent]      
+2013-11-06 09:17:32 Normal File-->     1,121,779,712 /var/lib/mysql/asos/asosData.MYI [Sent]      
+2013-11-06 09:17:51 Normal File-->     1,721,070,484 /var/lib/mysql/asos/asosData.MYD [Sent]      
+2013-11-06 09:17:51 Successful incremental backup of '/'
+
+2013-11-06 09:17:51 --- SCHEDULEREC STATUS BEGIN
+2013-11-06 09:17:51 Total number of objects inspected:  150,915
+2013-11-06 09:17:51 Total number of objects backed up:       51
+2013-11-06 09:17:51 Total number of objects updated:          0
+2013-11-06 09:17:51 Total number of objects rebound:          0
+2013-11-06 09:17:51 Total number of objects deleted:          0
+2013-11-06 09:17:51 Total number of objects expired:          0
+2013-11-06 09:17:51 Total number of objects failed:           0
+2013-11-06 09:17:51 Total number of bytes transferred:    1.17 GB
+2013-11-06 09:17:51 Data transfer time:                  387.23 sec
+2013-11-06 09:17:51 Network data transfer rate:        3,185.95 KB/sec
+2013-11-06 09:17:51 Aggregate data transfer rate:      2,365.20 KB/sec
+2013-11-06 09:17:51 Objects compressed by:                   65%
+2013-11-06 09:17:51 Elapsed processing time:           00:08:41
+2013-11-06 09:17:51 --- SCHEDULEREC STATUS END
+2013-11-06 09:17:51 --- SCHEDULEREC OBJECT END NIGHTLY-PRODUCTION-BACKUPS 2013-11-06 22:30:00
+2013-11-06 09:17:51 Scheduled event 'NIGHTLY-PRODUCTION-BACKUPS' completed successfully.
+2013-11-06 09:17:51 Sending results for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+2013-11-06 09:17:51 Results sent to server for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+
+2013-11-06 09:17:51 ANS1483I Schedule log pruning started.
+2013-11-06 09:17:51 ANS1484I Schedule log pruning finished successfully.
+2013-11-06 09:17:51 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-06 09:17:51 Querying server for next scheduled event.
+2013-11-06 09:17:51 Node Name: MOLLYSOILS
+2013-11-06 09:17:52 Session established with server BUCKY6: AIX
+2013-11-06 09:17:52   Server Version 6, Release 2, Level 4.0
+2013-11-06 09:17:52   Server date/time: 2013-11-07 00:16:24  Last access: 2013-11-07 00:11:00
+
+2013-11-06 09:17:52 --- SCHEDULEREC QUERY BEGIN
+2013-11-06 09:17:52 --- SCHEDULEREC QUERY END
+2013-11-06 09:17:52 Next operation scheduled:
+2013-11-06 09:17:52 ------------------------------------------------------------
+2013-11-06 09:17:52 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-06 09:17:52 Action:                Incremental
+2013-11-06 09:17:52 Objects:               
+2013-11-06 09:17:52 Options:               
+2013-11-06 09:17:52 Server Window Start:   22:30:00 on 2013-11-07
+2013-11-06 09:17:52 ------------------------------------------------------------
+2013-11-06 09:17:52 Schedule will be refreshed in 4 hours.
+2013-11-06 13:17:52 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-06 13:17:52 Querying server for next scheduled event.
+2013-11-06 13:17:52 Node Name: MOLLYSOILS
+2013-11-06 13:17:52 Session established with server BUCKY6: AIX
+2013-11-06 13:17:52   Server Version 6, Release 2, Level 4.0
+2013-11-06 13:17:52   Server date/time: 2013-11-07 04:18:46  Last access: 2013-11-07 00:16:24
+
+2013-11-06 13:17:52 --- SCHEDULEREC QUERY BEGIN
+2013-11-06 13:17:53 --- SCHEDULEREC QUERY END
+2013-11-06 13:17:53 Next operation scheduled:
+2013-11-06 13:17:53 ------------------------------------------------------------
+2013-11-06 13:17:53 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-06 13:17:53 Action:                Incremental
+2013-11-06 13:17:53 Objects:               
+2013-11-06 13:17:53 Options:               
+2013-11-06 13:17:53 Server Window Start:   22:30:00 on 2013-11-07
+2013-11-06 13:17:53 ------------------------------------------------------------
+2013-11-06 13:17:53 Schedule will be refreshed in 4 hours.
+2013-11-06 17:17:53 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-06 17:17:53 Querying server for next scheduled event.
+2013-11-06 17:17:53 Node Name: MOLLYSOILS
+2013-11-06 17:17:53 Session established with server BUCKY6: AIX
+2013-11-06 17:17:53   Server Version 6, Release 2, Level 4.0
+2013-11-06 17:17:53   Server date/time: 2013-11-07 08:21:10  Last access: 2013-11-07 04:18:46
+
+2013-11-06 17:17:53 --- SCHEDULEREC QUERY BEGIN
+2013-11-06 17:17:53 --- SCHEDULEREC QUERY END
+2013-11-06 17:17:53 Next operation scheduled:
+2013-11-06 17:17:53 ------------------------------------------------------------
+2013-11-06 17:17:53 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-06 17:17:53 Action:                Incremental
+2013-11-06 17:17:53 Objects:               
+2013-11-06 17:17:53 Options:               
+2013-11-06 17:17:53 Server Window Start:   22:30:00 on 2013-11-07
+2013-11-06 17:17:53 ------------------------------------------------------------
+2013-11-06 17:17:53 Schedule will be refreshed in 4 hours.
+2013-11-06 21:17:53 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-06 21:17:53 Querying server for next scheduled event.
+2013-11-06 21:17:53 Node Name: MOLLYSOILS
+2013-11-06 21:17:53 Session established with server BUCKY6: AIX
+2013-11-06 21:17:53   Server Version 6, Release 2, Level 4.0
+2013-11-06 21:17:53   Server date/time: 2013-11-07 12:23:29  Last access: 2013-11-07 08:21:10
+
+2013-11-06 21:17:53 --- SCHEDULEREC QUERY BEGIN
+2013-11-06 21:17:53 --- SCHEDULEREC QUERY END
+2013-11-06 21:17:53 Next operation scheduled:
+2013-11-06 21:17:53 ------------------------------------------------------------
+2013-11-06 21:17:53 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-06 21:17:53 Action:                Incremental
+2013-11-06 21:17:53 Objects:               
+2013-11-06 21:17:53 Options:               
+2013-11-06 21:17:53 Server Window Start:   22:30:00 on 2013-11-07
+2013-11-06 21:17:53 ------------------------------------------------------------
+2013-11-06 21:17:53 Schedule will be refreshed in 4 hours.
+2013-11-07 01:17:53 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-07 01:17:53 Querying server for next scheduled event.
+2013-11-07 01:17:53 Node Name: MOLLYSOILS
+2013-11-07 01:17:53 Session established with server BUCKY6: AIX
+2013-11-07 01:17:53   Server Version 6, Release 2, Level 4.0
+2013-11-07 01:17:53   Server date/time: 2013-11-07 16:25:50  Last access: 2013-11-07 12:23:29
+
+2013-11-07 01:17:53 --- SCHEDULEREC QUERY BEGIN
+2013-11-07 01:17:53 --- SCHEDULEREC QUERY END
+2013-11-07 01:17:53 Next operation scheduled:
+2013-11-07 01:17:53 ------------------------------------------------------------
+2013-11-07 01:17:53 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-07 01:17:53 Action:                Incremental
+2013-11-07 01:17:53 Objects:               
+2013-11-07 01:17:53 Options:               
+2013-11-07 01:17:53 Server Window Start:   22:30:00 on 2013-11-07
+2013-11-07 01:17:53 ------------------------------------------------------------
+2013-11-07 01:17:53 Schedule will be refreshed in 4 hours.
+2013-11-07 05:17:53 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-07 05:17:53 Querying server for next scheduled event.
+2013-11-07 05:17:53 Node Name: MOLLYSOILS
+2013-11-07 05:17:53 Session established with server BUCKY6: AIX
+2013-11-07 05:17:53   Server Version 6, Release 2, Level 4.0
+2013-11-07 05:17:53   Server date/time: 2013-11-07 20:28:14  Last access: 2013-11-07 16:25:50
+
+2013-11-07 05:17:53 --- SCHEDULEREC QUERY BEGIN
+2013-11-07 05:17:53 --- SCHEDULEREC QUERY END
+2013-11-07 05:17:53 Next operation scheduled:
+2013-11-07 05:17:53 ------------------------------------------------------------
+2013-11-07 05:17:53 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-07 05:17:53 Action:                Incremental
+2013-11-07 05:17:53 Objects:               
+2013-11-07 05:17:53 Options:               
+2013-11-07 05:17:53 Server Window Start:   22:30:00 on 2013-11-07
+2013-11-07 05:17:53 ------------------------------------------------------------
+2013-11-07 05:17:53 Command will be executed in 3 hours and 12 minutes.
+2013-11-07 08:29:53 
+Executing scheduled command now.
+2013-11-07 08:29:53 Node Name: MOLLYSOILS
+2013-11-07 08:29:53 Session established with server BUCKY6: AIX
+2013-11-07 08:29:53   Server Version 6, Release 2, Level 4.0
+2013-11-07 08:29:53   Server date/time: 2013-11-07 23:42:13  Last access: 2013-11-07 20:28:14
+
+2013-11-07 08:29:53 --- SCHEDULEREC OBJECT BEGIN NIGHTLY-PRODUCTION-BACKUPS 2013-11-07 22:30:00
+2013-11-07 08:29:53 Incremental backup of volume '/'
+2013-11-07 08:30:16 ANS1898I ***** Processed     1,500 files *****
+2013-11-07 08:30:17 ANS1898I ***** Processed     7,000 files *****
+2013-11-07 08:30:18 ANS1898I ***** Processed    13,000 files *****
+2013-11-07 08:30:19 ANS1898I ***** Processed    19,000 files *****
+2013-11-07 08:30:20 ANS1898I ***** Processed    26,000 files *****
+2013-11-07 08:30:21 ANS1898I ***** Processed    34,000 files *****
+2013-11-07 08:30:22 ANS1898I ***** Processed    44,500 files *****
+2013-11-07 08:30:23 ANS1898I ***** Processed    53,500 files *****
+2013-11-07 08:30:24 ANS1898I ***** Processed    68,000 files *****
+2013-11-07 08:30:25 ANS1898I ***** Processed    76,000 files *****
+2013-11-07 08:30:26 ANS1898I ***** Processed    81,000 files *****
+2013-11-07 08:30:27 ANS1898I ***** Processed    87,500 files *****
+2013-11-07 08:30:28 ANS1898I ***** Processed    95,000 files *****
+2013-11-07 08:30:29 ANS1898I ***** Processed    98,500 files *****
+2013-11-07 08:30:30 ANS1898I ***** Processed   107,500 files *****
+2013-11-07 08:30:31 ANS1898I ***** Processed   114,000 files *****
+2013-11-07 08:30:32 ANS1898I ***** Processed   120,000 files *****
+2013-11-07 08:30:32 Directory-->               4,096 / [Sent]      
+2013-11-07 08:30:32 Normal File-->               139 /opt/tivoli/tsm/client/ba/bin/tsmstats.ini [Sent]      
+2013-11-07 08:30:32 Normal File-->             1,185 /var/lib/logrotate/status [Sent]      
+2013-11-07 08:30:33 Normal File-->         3,673,483 /var/lib/mlocate/mlocate.db [Sent]      
+2013-11-07 08:30:36 Normal File-->        49,678,542 /var/lib/mysql/asos_dump.txt [Sent]      
+2013-11-07 08:30:40 Normal File-->        48,448,325 /var/lib/mysql/aws_dump.txt [Sent]      
+2013-11-07 08:30:40 Normal File-->               801 /var/lib/mysql/barak_dump.txt [Sent]      
+2013-11-07 08:30:40 Normal File-->               800 /var/lib/mysql/bugs_dump.txt [Sent]      
+2013-11-07 08:30:40 Normal File-->               806 /var/lib/mysql/cons-train_dump.txt [Sent]      
+2013-11-07 08:30:40 Normal File-->               800 /var/lib/mysql/coop_dump.txt [Sent]      
+2013-11-07 08:30:40 Normal File-->            92,664 /var/lib/mysql/extension_dump.txt.gz [Sent]      
+2013-11-07 08:30:40 Normal File-->            92,664 /var/lib/mysql/extension_dump_delete.txt.gz [Sent]      
+2013-11-07 08:30:40 Normal File-->            92,664 /var/lib/mysql/extension_dump_previous.txt.gz [Sent]      
+2013-11-07 08:30:44 Normal File-->        47,101,735 /var/lib/mysql/grids_dump.txt [Sent]      
+2013-11-07 08:30:44 Normal File-->               768 /var/lib/mysql/insolation_dump.txt.gz [Sent]      
+2013-11-07 08:30:44 Normal File-->               768 /var/lib/mysql/insolation_dump_delete.txt.gz [Sent]      
+2013-11-07 08:30:44 Normal File-->               768 /var/lib/mysql/insolation_dump_previous.txt.gz [Sent]      
+2013-11-07 08:30:44 Normal File-->             7,634 /var/lib/mysql/mysql_dump.txt.gz [Sent]      
+2013-11-07 08:30:44 Normal File-->             7,633 /var/lib/mysql/mysql_dump_delete.txt.gz [Sent]      
+2013-11-07 08:30:44 Normal File-->             7,634 /var/lib/mysql/mysql_dump_previous.txt.gz [Sent]      
+2013-11-07 08:30:44 Expiring-->           49,706,064 /var/lib/mysql/opu_dump.txt [Sent]      
+2013-11-07 08:30:57 ANS1898I ***** Processed   120,500 files *****
+2013-11-07 08:30:57 Normal File-->        35,456,948 /var/lib/mysql/opu_dump.txt.gz [Sent]      
+2013-11-07 08:31:07 ANS1898I ***** Processed   124,000 files *****
+2013-11-07 08:31:07 Normal File-->            65,267 /var/lib/mysql/soils_dump.txt.gz [Sent]      
+2013-11-07 08:31:07 Normal File-->            65,267 /var/lib/mysql/soils_dump_delete.txt.gz [Sent]      
+2013-11-07 08:31:07 Normal File-->            65,267 /var/lib/mysql/soils_dump_previous.txt.gz [Sent]      
+2013-11-07 08:31:08 ANS1898I ***** Processed   129,000 files *****
+2013-11-07 08:31:09 ANS1898I ***** Processed   136,000 files *****
+2013-11-07 08:31:10 ANS1898I ***** Processed   141,000 files *****
+2013-11-07 08:31:11 ANS1898I ***** Processed   146,000 files *****
+2013-11-07 08:31:11 Normal File-->         4,591,059 /var/lib/mysql/transect_dump.txt.gz [Sent]      
+2013-11-07 08:31:12 ANS1898I ***** Processed   147,000 files *****
+2013-11-07 08:31:13 ANS1898I ***** Processed   150,500 files *****
+2013-11-07 08:31:16 Normal File-->         4,591,060 /var/lib/mysql/transect_dump_delete.txt.gz [Sent]      
+2013-11-07 08:31:19 Normal File-->        35,120,892 /var/lib/mysql/opu_dump_delete.txt.gz [Sent]      
+2013-11-07 08:31:19 Normal File-->         4,591,059 /var/lib/mysql/transect_dump_previous.txt.gz [Sent]      
+2013-11-07 08:31:20 Normal File-->           142,272 /var/lib/mysql/turfwebsite_dump.txt.gz [Sent]      
+2013-11-07 08:31:20 Normal File-->           142,272 /var/lib/mysql/turfwebsite_dump_delete.txt.gz [Sent]      
+2013-11-07 08:31:20 Normal File-->           142,273 /var/lib/mysql/turfwebsite_dump_previous.txt.gz [Sent]      
+2013-11-07 08:31:22 Normal File-->        35,335,656 /var/lib/mysql/opu_dump_previous.txt.gz [Sent]      
+2013-11-07 08:31:30 Normal File-->        27,395,802 /var/lib/mysql/grids/WiMnDAveTAir.MYD [Sent]      
+2013-11-07 08:31:30 Normal File-->         1,940,480 /var/lib/mysql/grids/WiMnDAveTAir.MYI [Sent]      
+2013-11-07 08:31:34 Normal File-->        18,093,789 /var/lib/mysql/grids/WiMnDET.MYD [Sent]      
+2013-11-07 08:31:35 Normal File-->         1,218,560 /var/lib/mysql/grids/WiMnDET.MYI [Sent]      
+2013-11-07 08:31:42 Normal File-->        27,391,530 /var/lib/mysql/grids/WiMnDMaxTAir.MYD [Sent]      
+2013-11-07 08:31:43 Normal File-->         1,942,528 /var/lib/mysql/grids/WiMnDMaxTAir.MYI [Sent]      
+2013-11-07 08:31:50 Normal File-->        27,395,802 /var/lib/mysql/grids/WiMnDMinTAir.MYD [Sent]      
+2013-11-07 08:31:51 Normal File-->         1,940,480 /var/lib/mysql/grids/WiMnDMinTAir.MYI [Sent]      
+2013-11-07 08:32:27 Normal File-->        96,749,376 /var/lib/mysql/opu/hyd.MYD [Sent]      
+2013-11-07 08:33:12 Normal File-->       109,489,152 /var/lib/mysql/opu/hyd.MYI [Sent]      
+2013-11-07 08:33:12 Normal File-->             1,024 /var/lib/postfix/prng_exch [Sent]      
+2013-11-07 08:33:13 Normal File-->         4,115,130 /var/mail/root [Sent]      
+2013-11-07 08:35:34 Normal File-->     1,122,084,864 /var/lib/mysql/asos/asosData.MYI [Sent]      
+2013-11-07 08:35:55 Normal File-->     1,721,517,904 /var/lib/mysql/asos/asosData.MYD [Sent]      
+2013-11-07 08:35:55 Successful incremental backup of '/'
+
+2013-11-07 08:35:55 --- SCHEDULEREC STATUS BEGIN
+2013-11-07 08:35:55 Total number of objects inspected:  150,915
+2013-11-07 08:35:55 Total number of objects backed up:       46
+2013-11-07 08:35:55 Total number of objects updated:          0
+2013-11-07 08:35:55 Total number of objects rebound:          0
+2013-11-07 08:35:55 Total number of objects deleted:          0
+2013-11-07 08:35:55 Total number of objects expired:          1
+2013-11-07 08:35:55 Total number of objects failed:           0
+2013-11-07 08:35:55 Total number of bytes transferred:    1.20 GB
+2013-11-07 08:35:55 Data transfer time:                  358.21 sec
+2013-11-07 08:35:55 Network data transfer rate:        3,535.40 KB/sec
+2013-11-07 08:35:55 Aggregate data transfer rate:      3,501.42 KB/sec
+2013-11-07 08:35:55 Objects compressed by:                   63%
+2013-11-07 08:35:55 Elapsed processing time:           00:06:01
+2013-11-07 08:35:55 --- SCHEDULEREC STATUS END
+2013-11-07 08:35:55 --- SCHEDULEREC OBJECT END NIGHTLY-PRODUCTION-BACKUPS 2013-11-07 22:30:00
+2013-11-07 08:35:55 Scheduled event 'NIGHTLY-PRODUCTION-BACKUPS' completed successfully.
+2013-11-07 08:35:55 Sending results for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+2013-11-07 08:35:55 Results sent to server for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+
+2013-11-07 08:35:55 ANS1483I Schedule log pruning started.
+2013-11-07 08:35:55 ANS1484I Schedule log pruning finished successfully.
+2013-11-07 08:35:55 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-07 08:35:55 Querying server for next scheduled event.
+2013-11-07 08:35:55 Node Name: MOLLYSOILS
+2013-11-07 08:35:56 Session established with server BUCKY6: AIX
+2013-11-07 08:35:56   Server Version 6, Release 2, Level 4.0
+2013-11-07 08:35:56   Server date/time: 2013-11-07 23:48:15  Last access: 2013-11-07 23:43:26
+
+2013-11-07 08:35:56 --- SCHEDULEREC QUERY BEGIN
+2013-11-07 08:35:56 --- SCHEDULEREC QUERY END
+2013-11-07 08:35:56 Next operation scheduled:
+2013-11-07 08:35:56 ------------------------------------------------------------
+2013-11-07 08:35:56 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-07 08:35:56 Action:                Incremental
+2013-11-07 08:35:56 Objects:               
+2013-11-07 08:35:56 Options:               
+2013-11-07 08:35:56 Server Window Start:   22:30:00 on 2013-11-08
+2013-11-07 08:35:56 ------------------------------------------------------------
+2013-11-07 08:35:56 Schedule will be refreshed in 4 hours.
+2013-11-07 12:35:56 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-07 12:35:56 Querying server for next scheduled event.
+2013-11-07 12:35:56 Node Name: MOLLYSOILS
+2013-11-07 12:35:56 Session established with server BUCKY6: AIX
+2013-11-07 12:35:56   Server Version 6, Release 2, Level 4.0
+2013-11-07 12:35:56   Server date/time: 2013-11-08 03:50:43  Last access: 2013-11-07 23:48:15
+
+2013-11-07 12:35:56 --- SCHEDULEREC QUERY BEGIN
+2013-11-07 12:35:56 --- SCHEDULEREC QUERY END
+2013-11-07 12:35:56 Next operation scheduled:
+2013-11-07 12:35:56 ------------------------------------------------------------
+2013-11-07 12:35:56 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-07 12:35:56 Action:                Incremental
+2013-11-07 12:35:56 Objects:               
+2013-11-07 12:35:56 Options:               
+2013-11-07 12:35:56 Server Window Start:   22:30:00 on 2013-11-08
+2013-11-07 12:35:56 ------------------------------------------------------------
+2013-11-07 12:35:56 Schedule will be refreshed in 4 hours.
+2013-11-07 16:35:56 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-07 16:35:56 Querying server for next scheduled event.
+2013-11-07 16:35:56 Node Name: MOLLYSOILS
+2013-11-07 16:35:56 Session established with server BUCKY6: AIX
+2013-11-07 16:35:56   Server Version 6, Release 2, Level 4.0
+2013-11-07 16:35:56   Server date/time: 2013-11-08 07:53:01  Last access: 2013-11-08 03:50:43
+
+2013-11-07 16:35:56 --- SCHEDULEREC QUERY BEGIN
+2013-11-07 16:35:56 --- SCHEDULEREC QUERY END
+2013-11-07 16:35:56 Next operation scheduled:
+2013-11-07 16:35:56 ------------------------------------------------------------
+2013-11-07 16:35:56 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-07 16:35:56 Action:                Incremental
+2013-11-07 16:35:56 Objects:               
+2013-11-07 16:35:56 Options:               
+2013-11-07 16:35:56 Server Window Start:   22:30:00 on 2013-11-08
+2013-11-07 16:35:56 ------------------------------------------------------------
+2013-11-07 16:35:56 Schedule will be refreshed in 4 hours.
+2013-11-07 20:35:56 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-07 20:35:56 Querying server for next scheduled event.
+2013-11-07 20:35:56 Node Name: MOLLYSOILS
+2013-11-07 20:35:56 Session established with server BUCKY6: AIX
+2013-11-07 20:35:56   Server Version 6, Release 2, Level 4.0
+2013-11-07 20:35:56   Server date/time: 2013-11-08 11:54:35  Last access: 2013-11-08 07:53:01
+
+2013-11-07 20:35:56 --- SCHEDULEREC QUERY BEGIN
+2013-11-07 20:35:56 --- SCHEDULEREC QUERY END
+2013-11-07 20:35:56 Next operation scheduled:
+2013-11-07 20:35:56 ------------------------------------------------------------
+2013-11-07 20:35:56 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-07 20:35:56 Action:                Incremental
+2013-11-07 20:35:56 Objects:               
+2013-11-07 20:35:56 Options:               
+2013-11-07 20:35:56 Server Window Start:   22:30:00 on 2013-11-08
+2013-11-07 20:35:56 ------------------------------------------------------------
+2013-11-07 20:35:56 Schedule will be refreshed in 4 hours.
+2013-11-08 00:35:56 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-08 00:35:56 Querying server for next scheduled event.
+2013-11-08 00:35:56 Node Name: MOLLYSOILS
+2013-11-08 00:35:56 Session established with server BUCKY6: AIX
+2013-11-08 00:35:56   Server Version 6, Release 2, Level 4.0
+2013-11-08 00:35:56   Server date/time: 2013-11-08 15:56:58  Last access: 2013-11-08 11:54:35
+
+2013-11-08 00:35:56 --- SCHEDULEREC QUERY BEGIN
+2013-11-08 00:35:56 --- SCHEDULEREC QUERY END
+2013-11-08 00:35:56 Next operation scheduled:
+2013-11-08 00:35:56 ------------------------------------------------------------
+2013-11-08 00:35:56 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-08 00:35:56 Action:                Incremental
+2013-11-08 00:35:56 Objects:               
+2013-11-08 00:35:56 Options:               
+2013-11-08 00:35:56 Server Window Start:   22:30:00 on 2013-11-08
+2013-11-08 00:35:56 ------------------------------------------------------------
+2013-11-08 00:35:56 Schedule will be refreshed in 4 hours.
+2013-11-08 04:35:56 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-08 04:35:56 Querying server for next scheduled event.
+2013-11-08 04:35:56 Node Name: MOLLYSOILS
+2013-11-08 04:35:56 Session established with server BUCKY6: AIX
+2013-11-08 04:35:56   Server Version 6, Release 2, Level 4.0
+2013-11-08 04:35:56   Server date/time: 2013-11-08 19:59:17  Last access: 2013-11-08 15:56:58
+
+2013-11-08 04:35:56 --- SCHEDULEREC QUERY BEGIN
+2013-11-08 04:35:56 --- SCHEDULEREC QUERY END
+2013-11-08 04:35:56 Next operation scheduled:
+2013-11-08 04:35:56 ------------------------------------------------------------
+2013-11-08 04:35:56 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-08 04:35:56 Action:                Incremental
+2013-11-08 04:35:56 Objects:               
+2013-11-08 04:35:56 Options:               
+2013-11-08 04:35:56 Server Window Start:   22:30:00 on 2013-11-08
+2013-11-08 04:35:56 ------------------------------------------------------------
+2013-11-08 04:35:56 Command will be executed in 3 hours and 34 minutes.
+2013-11-08 08:09:56 
+Executing scheduled command now.
+2013-11-08 08:09:56 Node Name: MOLLYSOILS
+2013-11-08 08:09:56 Session established with server BUCKY6: AIX
+2013-11-08 08:09:56   Server Version 6, Release 2, Level 4.0
+2013-11-08 08:09:56   Server date/time: 2013-11-08 23:35:15  Last access: 2013-11-08 19:59:17
+
+2013-11-08 08:09:56 --- SCHEDULEREC OBJECT BEGIN NIGHTLY-PRODUCTION-BACKUPS 2013-11-08 22:30:00
+2013-11-08 08:09:56 Incremental backup of volume '/'
+2013-11-08 08:10:28 ANS1898I ***** Processed     2,500 files *****
+2013-11-08 08:10:29 ANS1898I ***** Processed     7,500 files *****
+2013-11-08 08:10:30 ANS1898I ***** Processed    13,000 files *****
+2013-11-08 08:10:31 ANS1898I ***** Processed    19,000 files *****
+2013-11-08 08:10:32 ANS1898I ***** Processed    25,500 files *****
+2013-11-08 08:10:33 ANS1898I ***** Processed    27,000 files *****
+2013-11-08 08:10:49 ANS1898I ***** Processed    32,000 files *****
+2013-11-08 08:10:50 ANS1898I ***** Processed    38,500 files *****
+2013-11-08 08:10:51 ANS1898I ***** Processed    45,000 files *****
+2013-11-08 08:10:52 ANS1898I ***** Processed    50,500 files *****
+2013-11-08 08:10:53 ANS1898I ***** Processed    57,500 files *****
+2013-11-08 08:11:08 ANS1898I ***** Processed    67,000 files *****
+2013-11-08 08:11:09 ANS1898I ***** Processed    72,000 files *****
+2013-11-08 08:11:10 ANS1898I ***** Processed    77,500 files *****
+2013-11-08 08:11:11 ANS1898I ***** Processed    79,500 files *****
+2013-11-08 08:11:12 ANS1898I ***** Processed    84,500 files *****
+2013-11-08 08:11:20 ANS1898I ***** Processed    85,000 files *****
+2013-11-08 08:11:47 ANS1898I ***** Processed    85,500 files *****
+2013-11-08 08:11:51 ANS1898I ***** Processed    89,000 files *****
+2013-11-08 08:11:52 ANS1898I ***** Processed    95,500 files *****
+2013-11-08 08:11:53 ANS1898I ***** Processed   100,000 files *****
+2013-11-08 08:11:54 ANS1898I ***** Processed   107,500 files *****
+2013-11-08 08:11:55 ANS1898I ***** Processed   111,000 files *****
+2013-11-08 08:12:09 ANS1898I ***** Processed   115,500 files *****
+2013-11-08 08:12:10 ANS1898I ***** Processed   120,000 files *****
+2013-11-08 08:12:10 Directory-->               4,096 / [Sent]      
+2013-11-08 08:12:10 Normal File-->             1,277 /home/wayne/.mysql_history [Sent]      
+2013-11-08 08:12:10 Normal File-->               139 /opt/tivoli/tsm/client/ba/bin/tsmstats.ini [Sent]      
+2013-11-08 08:12:10 Normal File-->             1,185 /var/lib/logrotate/status [Sent]      
+2013-11-08 08:12:10 Normal File-->         3,673,469 /var/lib/mlocate/mlocate.db [Sent]      
+2013-11-08 08:12:21 Normal File-->        50,345,640 /var/lib/mysql/asos_dump.txt [Sent]      
+2013-11-08 08:12:21 Normal File-->               801 /var/lib/mysql/barak_dump.txt [Sent]      
+2013-11-08 08:12:21 Normal File-->               800 /var/lib/mysql/bugs_dump.txt [Sent]      
+2013-11-08 08:12:21 Normal File-->               806 /var/lib/mysql/cons-train_dump.txt [Sent]      
+2013-11-08 08:12:21 Normal File-->               800 /var/lib/mysql/coop_dump.txt [Sent]      
+2013-11-08 08:12:21 Normal File-->            92,664 /var/lib/mysql/extension_dump.txt.gz [Sent]      
+2013-11-08 08:12:21 Normal File-->            92,664 /var/lib/mysql/extension_dump_delete.txt.gz [Sent]      
+2013-11-08 08:12:21 Normal File-->            92,664 /var/lib/mysql/extension_dump_previous.txt.gz [Sent]      
+2013-11-08 08:12:35 Normal File-->               769 /var/lib/mysql/insolation_dump.txt.gz [Sent]      
+2013-11-08 08:12:39 ANS1898I ***** Processed   120,500 files *****
+2013-11-08 08:12:39 Normal File-->               768 /var/lib/mysql/insolation_dump_delete.txt.gz [Sent]      
+2013-11-08 08:12:42 Normal File-->               768 /var/lib/mysql/insolation_dump_previous.txt.gz [Sent]      
+2013-11-08 08:12:42 Normal File-->             7,631 /var/lib/mysql/mysql_dump.txt.gz [Sent]      
+2013-11-08 08:12:42 Normal File-->             7,634 /var/lib/mysql/mysql_dump_delete.txt.gz [Sent]      
+2013-11-08 08:12:42 Normal File-->             7,634 /var/lib/mysql/mysql_dump_previous.txt.gz [Sent]      
+2013-11-08 08:12:43 ANS1898I ***** Processed   123,000 files *****
+2013-11-08 08:12:44 ANS1898I ***** Processed   124,000 files *****
+2013-11-08 08:12:45 ANS1898I ***** Processed   130,500 files *****
+2013-11-08 08:12:46 ANS1898I ***** Processed   136,500 files *****
+2013-11-08 08:12:47 ANS1898I ***** Processed   140,500 files *****
+2013-11-08 08:12:48 Normal File-->        47,465,202 /var/lib/mysql/aws_dump.txt [Sent]      
+2013-11-08 08:12:48 Normal File-->            65,267 /var/lib/mysql/soils_dump.txt.gz [Sent]      
+2013-11-08 08:12:48 Normal File-->            65,267 /var/lib/mysql/soils_dump_delete.txt.gz [Sent]      
+2013-11-08 08:12:48 Normal File-->            65,267 /var/lib/mysql/soils_dump_previous.txt.gz [Sent]      
+2013-11-08 08:12:49 ANS1898I ***** Processed   144,500 files *****
+2013-11-08 08:12:50 ANS1898I ***** Processed   148,000 files *****
+2013-11-08 08:12:50 Normal File-->        47,611,584 /var/lib/mysql/grids_dump.txt [Sent]      
+2013-11-08 08:12:51 ANS1898I ***** Processed   150,500 files *****
+2013-11-08 08:12:52 Normal File-->         4,591,059 /var/lib/mysql/transect_dump.txt.gz [Sent]      
+2013-11-08 08:12:56 Normal File-->         4,591,059 /var/lib/mysql/transect_dump_delete.txt.gz [Sent]      
+2013-11-08 08:12:59 Normal File-->        47,754,985 /var/lib/mysql/opu_dump.txt [Sent]      
+2013-11-08 08:13:00 Normal File-->         4,591,059 /var/lib/mysql/transect_dump_previous.txt.gz [Sent]      
+2013-11-08 08:13:00 Normal File-->           142,272 /var/lib/mysql/turfwebsite_dump.txt.gz [Sent]      
+2013-11-08 08:13:00 Normal File-->           142,273 /var/lib/mysql/turfwebsite_dump_delete.txt.gz [Sent]      
+2013-11-08 08:13:00 Normal File-->           142,272 /var/lib/mysql/turfwebsite_dump_previous.txt.gz [Sent]      
+2013-11-08 08:13:08 Normal File-->        27,401,409 /var/lib/mysql/grids/WiMnDAveTAir.MYD [Sent]      
+2013-11-08 08:13:09 Normal File-->         1,940,480 /var/lib/mysql/grids/WiMnDAveTAir.MYI [Sent]      
+2013-11-08 08:13:13 Normal File-->        18,099,396 /var/lib/mysql/grids/WiMnDET.MYD [Sent]      
+2013-11-08 08:13:13 Normal File-->         1,218,560 /var/lib/mysql/grids/WiMnDET.MYI [Sent]      
+2013-11-08 08:13:22 Normal File-->        27,397,137 /var/lib/mysql/grids/WiMnDMaxTAir.MYD [Sent]      
+2013-11-08 08:13:22 Normal File-->         1,942,528 /var/lib/mysql/grids/WiMnDMaxTAir.MYI [Sent]      
+2013-11-08 08:13:30 Normal File-->        27,401,409 /var/lib/mysql/grids/WiMnDMinTAir.MYD [Sent]      
+2013-11-08 08:13:30 Normal File-->         1,940,480 /var/lib/mysql/grids/WiMnDMinTAir.MYI [Sent]      
+2013-11-08 08:14:05 Normal File-->        96,784,044 /var/lib/mysql/opu/hyd.MYD [Sent]      
+2013-11-08 08:14:48 Normal File-->       109,533,184 /var/lib/mysql/opu/hyd.MYI [Sent]      
+2013-11-08 08:14:48 Normal File-->             1,024 /var/lib/postfix/prng_exch [Sent]      
+2013-11-08 08:14:49 Normal File-->         4,124,667 /var/mail/root [Sent]      
+2013-11-08 08:17:08 Normal File-->     1,122,357,248 /var/lib/mysql/asos/asosData.MYI [Sent]      
+2013-11-08 08:17:25 Normal File-->     1,721,920,728 /var/lib/mysql/asos/asosData.MYD [Sent]      
+2013-11-08 08:17:25 Successful incremental backup of '/'
+
+2013-11-08 08:17:25 --- SCHEDULEREC STATUS BEGIN
+2013-11-08 08:17:25 Total number of objects inspected:  150,915
+2013-11-08 08:17:25 Total number of objects backed up:       45
+2013-11-08 08:17:25 Total number of objects updated:          0
+2013-11-08 08:17:25 Total number of objects rebound:          0
+2013-11-08 08:17:25 Total number of objects deleted:          0
+2013-11-08 08:17:25 Total number of objects expired:          0
+2013-11-08 08:17:25 Total number of objects failed:           0
+2013-11-08 08:17:25 Total number of bytes transferred:    1.09 GB
+2013-11-08 08:17:25 Data transfer time:                  327.66 sec
+2013-11-08 08:17:25 Network data transfer rate:        3,490.91 KB/sec
+2013-11-08 08:17:25 Aggregate data transfer rate:      2,546.49 KB/sec
+2013-11-08 08:17:25 Objects compressed by:                   66%
+2013-11-08 08:17:25 Elapsed processing time:           00:07:29
+2013-11-08 08:17:25 --- SCHEDULEREC STATUS END
+2013-11-08 08:17:25 --- SCHEDULEREC OBJECT END NIGHTLY-PRODUCTION-BACKUPS 2013-11-08 22:30:00
+2013-11-08 08:17:25 Scheduled event 'NIGHTLY-PRODUCTION-BACKUPS' completed successfully.
+2013-11-08 08:17:25 Sending results for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+2013-11-08 08:17:25 Results sent to server for scheduled event 'NIGHTLY-PRODUCTION-BACKUPS'.
+
+2013-11-08 08:17:25 ANS1483I Schedule log pruning started.
+2013-11-08 08:17:25 ANS1484I Schedule log pruning finished successfully.
+2013-11-08 08:17:25 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-08 08:17:25 Querying server for next scheduled event.
+2013-11-08 08:17:25 Node Name: MOLLYSOILS
+2013-11-08 08:17:25 Session established with server BUCKY6: AIX
+2013-11-08 08:17:25   Server Version 6, Release 2, Level 4.0
+2013-11-08 08:17:25   Server date/time: 2013-11-08 23:42:51  Last access: 2013-11-08 23:37:58
+
+2013-11-08 08:17:25 --- SCHEDULEREC QUERY BEGIN
+2013-11-08 08:17:25 --- SCHEDULEREC QUERY END
+2013-11-08 08:17:25 Next operation scheduled:
+2013-11-08 08:17:25 ------------------------------------------------------------
+2013-11-08 08:17:25 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-08 08:17:25 Action:                Incremental
+2013-11-08 08:17:25 Objects:               
+2013-11-08 08:17:25 Options:               
+2013-11-08 08:17:25 Server Window Start:   22:30:00 on 2013-11-11
+2013-11-08 08:17:25 ------------------------------------------------------------
+2013-11-08 08:17:25 Schedule will be refreshed in 4 hours.
+2013-11-08 12:17:25 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-08 12:17:25 Querying server for next scheduled event.
+2013-11-08 12:17:25 Node Name: MOLLYSOILS
+2013-11-08 12:17:25 Session established with server BUCKY6: AIX
+2013-11-08 12:17:25   Server Version 6, Release 2, Level 4.0
+2013-11-08 12:17:25   Server date/time: 2013-11-09 03:45:05  Last access: 2013-11-08 23:42:51
+
+2013-11-08 12:17:25 --- SCHEDULEREC QUERY BEGIN
+2013-11-08 12:17:25 --- SCHEDULEREC QUERY END
+2013-11-08 12:17:25 Next operation scheduled:
+2013-11-08 12:17:25 ------------------------------------------------------------
+2013-11-08 12:17:25 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-08 12:17:25 Action:                Incremental
+2013-11-08 12:17:25 Objects:               
+2013-11-08 12:17:25 Options:               
+2013-11-08 12:17:25 Server Window Start:   22:30:00 on 2013-11-11
+2013-11-08 12:17:25 ------------------------------------------------------------
+2013-11-08 12:17:25 Schedule will be refreshed in 4 hours.
+2013-11-08 16:17:25 TSM Backup-Archive Client Version 5, Release 5, Level 1.4   
+2013-11-08 16:17:25 Querying server for next scheduled event.
+2013-11-08 16:17:25 Node Name: MOLLYSOILS
+2013-11-08 16:17:25 Session established with server BUCKY6: AIX
+2013-11-08 16:17:25   Server Version 6, Release 2, Level 4.0
+2013-11-08 16:17:25   Server date/time: 2013-11-09 07:47:23  Last access: 2013-11-09 03:45:05
+
+2013-11-08 16:17:25 --- SCHEDULEREC QUERY BEGIN
+2013-11-08 16:17:25 --- SCHEDULEREC QUERY END
+2013-11-08 16:17:25 Next operation scheduled:
+2013-11-08 16:17:25 ------------------------------------------------------------
+2013-11-08 16:17:25 Schedule Name:         NIGHTLY-PRODUCTION-BACKUPS
+2013-11-08 16:17:25 Action:                Incremental
+2013-11-08 16:17:25 Objects:               
+2013-11-08 16:17:25 Options:               
+2013-11-08 16:17:25 Server Window Start:   22:30:00 on 2013-11-11
+2013-11-08 16:17:25 ------------------------------------------------------------
+2013-11-08 16:17:25 Schedule will be refreshed in 4 hours.
