@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require 'HtmlStatusScraper'
-require 'ColParamRange'
+require_relative 'HtmlStatusScraper'
+require_relative 'ColParamRange'
 
 class HtmlTableStatusScraper < HtmlStatusScraper
     attr_writer :colsToCheck

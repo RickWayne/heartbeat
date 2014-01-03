@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require "grid.rb"
+require_relative "grid.rb"
 
 now = Time.now
 year = now.year

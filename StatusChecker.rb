@@ -1,138 +1,12 @@
-#!/usr/bin/env ruby
-# StatusChecker script
-# $Revision: 1.42 $
-# $Log: StatusChecker.rb,v $
-# Revision 1.42  2007/12/17 16:56:36  wayne
-# incorporating new AWON plots
-#
-# Revision 1.41  2007/09/04 15:24:44  wayne
-# i dunno
-#
-# Revision 1.40  2007/07/25 21:40:03  wayne
-# added ET plot to page
-#
-# Revision 1.39  2006/10/05 14:20:17  wayne
-# added HYD database checking, changed webcam IP, added rain bucket and insol comparisons, used HERE document for resultStr
-#
-# Revision 1.38  2006/08/18 15:34:54  wayne
-# visual tweaks
-#
-# Revision 1.37  2006/08/16 20:29:06  wayne
-# some minor tweaks
-#
-# Revision 1.36  2006/07/18 19:18:47  wayne
-# Dialed back gypsymoth checking for a green
-#
-# Revision 1.35  2005/12/26 21:32:37  wayne
-# fixed HTML email; now uses localhost SMTP too
-#
-# Revision 1.34  2005/12/05 15:31:43  wayne
-# currently broken, think it was the last changes to webcam stuff
-#
-# Revision 1.31  2005/08/25 14:56:11  wayne
-# added todays-movie link to webcam image
-#
-# Revision 1.30  2005/05/18 14:33:28  wayne
-# removed ems; added wimnext link
-#
-# Revision 1.29  2005/03/03 23:14:56  wayne
-# changed AWON battery-voltage threshold to 12.01
-#
-# Revision 1.28  2005/02/23 18:04:40  wayne
-# changed URLs to match new servlet layout
-#
-# Revision 1.27  2004/12/20 17:45:57  wayne
-# added optional minus signs for digit-checking patterns
-#
-# Revision 1.26  2004/12/17 16:35:35  wayne
-# memo to self: test, THEN commit!
-#
-# Revision 1.23  2004/11/12 22:31:07  wayne
-# fixed HYD to point to alfi
-#
-# Revision 1.22  2004/09/22 15:25:42  wayne
-# added timestamp to table
-#
-# Revision 1.21  2004/09/22 15:20:34  wayne
-# changed title timestamp to display DOY
-#
-# Revision 1.20  2004/09/07 18:37:34  wayne
-# Upped degree-day limit yet again
-#
-# Revision 1.19  2004/08/23 16:41:30  wayne
-# added all-last-week checking of AWS battery
-#
-# Revision 1.18  2004/08/23 15:48:55  wayne
-# Expanded DD range
-#
-# Revision 1.17  2004/08/06 18:31:28  wayne
-# Added HTML error message buffer
-# Removed OPUMKE entirely
-# Made EMS checker case-insensitive
-#
-# Revision 1.16  2004/07/24 17:00:35  wayne
-# woops, had debug stuff on
-#
-# Revision 1.15  2004/07/23 18:27:56  wayne
-# production -- now either does report or email depending on
-# existence of "email" cmd-line arg (only sends email if
-# something's wrong)
-#
-# Revision 1.14  2004/07/23 18:17:21  wayne
-# changed refresh rate to every 600 seconds
-#
-# Revision 1.13  2004/07/23 18:15:32  wayne
-# fixed quotes in meta tag to automagically refresh
-#
-# Revision 1.12  2004/07/23 18:13:29  wayne
-# added meta tag to automagically refresh
-#
-# Revision 1.11  2004/07/23 17:23:54  wayne
-# looks operational
-#
-# Revision 1.10  2004/07/23 17:23:07  wayne
-# looks operational
-#
-# Revision 1.9  2004/07/23 16:03:32  wayne
-# many updates and fixes; now does HTML output and SQL checking
-#
-# Revision 1.8  2004/03/02 21:31:56  wayne
-# Fixed false AWS positives; ET can be < 0.05 and still be good!
-#
-# Revision 1.7  2004/03/02 21:10:37  wayne
-# Further refinements
-#
-# Revision 1.6  2002/07/18 15:57:35  wayne
-# added stuff to check email products and report to me via email
-#
-# Revision 1.5  2002/07/10 16:13:04  wayne
-# Fixed problem with OPU; now won't look for today's OPU until noon. Also made
-# @verbose in Html*Scraper an instance variable, and added the grid stuff.
-# Modified Files:
-# HtmlStatusScraper.rb HtmlTableStatusScraper.rb
-# StatusChecker.rb
-# Added Files:
-# GridStatusChecker.rb grid.rb gridtest.rb
-#
-# Revision 1.4  2002/07/08 22:56:44  wayne
-# Got everything including OPU and OPUMKE going at once (!). Now, on to grids
-# and SQL databases directly!
-# Modified Files:
-# 	ColParamRange.rb HtmlStatusScraper.rb
-# 	HtmlTableStatusScraper.rb StatusChecker.rb
-#
-# Revision 1.3  2002/06/07 16:27:01  wayne
-# Now it's AWS, ASOS, and ASOS Degree Days are all working.
-#
-require 'HtmlTableStatusScraper'
-require 'ColParamRange'
-require 'Email'
-require 'SQLChecker'
-require 'SublinkStatusScraper'
-require 'RemoteFileGrepper'
-require 'ping'
-require 'grab_geopdf_numbers'
-require 'log_checker'
+require_relative 'HtmlTableStatusScraper'
+require_relative 'ColParamRange'
+require_relative 'Email'
+require_relative 'SQLChecker'
+require_relative 'SublinkStatusScraper'
+require_relative 'RemoteFileGrepper'
+require_relative 'ping'
+require_relative 'grab_geopdf_numbers'
+require_relative 'log_checker'
 require 'date'
 
 def boilToSMS(alertStr)
@@ -688,3 +562,131 @@ if (email)
 else
     print "#{resultStr}\n"
 end    
+##################
+# SVN LOG (old)
+##################
+# StatusChecker script
+# $Revision: 1.42 $
+# $Log: StatusChecker.rb,v $
+# Revision 1.42  2007/12/17 16:56:36  wayne
+# incorporating new AWON plots
+#
+# Revision 1.41  2007/09/04 15:24:44  wayne
+# i dunno
+#
+# Revision 1.40  2007/07/25 21:40:03  wayne
+# added ET plot to page
+#
+# Revision 1.39  2006/10/05 14:20:17  wayne
+# added HYD database checking, changed webcam IP, added rain bucket and insol comparisons, used HERE document for resultStr
+#
+# Revision 1.38  2006/08/18 15:34:54  wayne
+# visual tweaks
+#
+# Revision 1.37  2006/08/16 20:29:06  wayne
+# some minor tweaks
+#
+# Revision 1.36  2006/07/18 19:18:47  wayne
+# Dialed back gypsymoth checking for a green
+#
+# Revision 1.35  2005/12/26 21:32:37  wayne
+# fixed HTML email; now uses localhost SMTP too
+#
+# Revision 1.34  2005/12/05 15:31:43  wayne
+# currently broken, think it was the last changes to webcam stuff
+#
+# Revision 1.31  2005/08/25 14:56:11  wayne
+# added todays-movie link to webcam image
+#
+# Revision 1.30  2005/05/18 14:33:28  wayne
+# removed ems; added wimnext link
+#
+# Revision 1.29  2005/03/03 23:14:56  wayne
+# changed AWON battery-voltage threshold to 12.01
+#
+# Revision 1.28  2005/02/23 18:04:40  wayne
+# changed URLs to match new servlet layout
+#
+# Revision 1.27  2004/12/20 17:45:57  wayne
+# added optional minus signs for digit-checking patterns
+#
+# Revision 1.26  2004/12/17 16:35:35  wayne
+# memo to self: test, THEN commit!
+#
+# Revision 1.23  2004/11/12 22:31:07  wayne
+# fixed HYD to point to alfi
+#
+# Revision 1.22  2004/09/22 15:25:42  wayne
+# added timestamp to table
+#
+# Revision 1.21  2004/09/22 15:20:34  wayne
+# changed title timestamp to display DOY
+#
+# Revision 1.20  2004/09/07 18:37:34  wayne
+# Upped degree-day limit yet again
+#
+# Revision 1.19  2004/08/23 16:41:30  wayne
+# added all-last-week checking of AWS battery
+#
+# Revision 1.18  2004/08/23 15:48:55  wayne
+# Expanded DD range
+#
+# Revision 1.17  2004/08/06 18:31:28  wayne
+# Added HTML error message buffer
+# Removed OPUMKE entirely
+# Made EMS checker case-insensitive
+#
+# Revision 1.16  2004/07/24 17:00:35  wayne
+# woops, had debug stuff on
+#
+# Revision 1.15  2004/07/23 18:27:56  wayne
+# production -- now either does report or email depending on
+# existence of "email" cmd-line arg (only sends email if
+# something's wrong)
+#
+# Revision 1.14  2004/07/23 18:17:21  wayne
+# changed refresh rate to every 600 seconds
+#
+# Revision 1.13  2004/07/23 18:15:32  wayne
+# fixed quotes in meta tag to automagically refresh
+#
+# Revision 1.12  2004/07/23 18:13:29  wayne
+# added meta tag to automagically refresh
+#
+# Revision 1.11  2004/07/23 17:23:54  wayne
+# looks operational
+#
+# Revision 1.10  2004/07/23 17:23:07  wayne
+# looks operational
+#
+# Revision 1.9  2004/07/23 16:03:32  wayne
+# many updates and fixes; now does HTML output and SQL checking
+#
+# Revision 1.8  2004/03/02 21:31:56  wayne
+# Fixed false AWS positives; ET can be < 0.05 and still be good!
+#
+# Revision 1.7  2004/03/02 21:10:37  wayne
+# Further refinements
+#
+# Revision 1.6  2002/07/18 15:57:35  wayne
+# added stuff to check email products and report to me via email
+#
+# Revision 1.5  2002/07/10 16:13:04  wayne
+# Fixed problem with OPU; now won't look for today's OPU until noon. Also made
+# @verbose in Html*Scraper an instance variable, and added the grid stuff.
+# Modified Files:
+# HtmlStatusScraper.rb HtmlTableStatusScraper.rb
+# StatusChecker.rb
+# Added Files:
+# GridStatusChecker.rb grid.rb gridtest.rb
+#
+# Revision 1.4  2002/07/08 22:56:44  wayne
+# Got everything including OPU and OPUMKE going at once (!). Now, on to grids
+# and SQL databases directly!
+# Modified Files:
+# 	ColParamRange.rb HtmlStatusScraper.rb
+# 	HtmlTableStatusScraper.rb StatusChecker.rb
+#
+# Revision 1.3  2002/06/07 16:27:01  wayne
+# Now it's AWS, ASOS, and ASOS Degree Days are all working.
+#

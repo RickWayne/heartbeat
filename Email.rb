@@ -4,6 +4,7 @@
 require 'net/pop'
 require 'net/smtp'
 require 'rubygems'
+require 'bundler/setup'
 require 'mailfactory'
 
 class EmailHeaderChecker

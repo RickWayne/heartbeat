@@ -1,7 +1,5 @@
-#!/usr/bin/env ruby
-
-require 'HtmlStatusScraper'
-require 'ColParamRange'
+require_relative 'HtmlStatusScraper'
+require_relative 'ColParamRange'
 
 class SublinkStatusScraper < HtmlStatusScraper
     def initialize(url,lineMatch,port=80,verbose=false,linkMatch=/wimnext/)

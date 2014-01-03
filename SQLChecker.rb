@@ -1,66 +1,92 @@
-#!/usr/bin/env ruby
-#
 # Check SQL database for the desired stuff
-require 'mysql'
 
+require 'rubygems'
+require 'bundler/setup'
+require 'active_record'
+
+DAY_SECONDS = 24*3600 # Wrong on DST transition days, but won't hurt
+
+class AwonStation < ActiveRecord::Base
+  has_many :t411s
+  has_many :t412s
+  has_many :t403s
+end
+
+class T411 < ActiveRecord::Base
+  belongs_to :awon_station
+  def self.yesterday_for(aTime=Time.new); aTime - DAY_SECONDS; end
+  def self.date_sym; :date; end
+end
+
+class T412 < ActiveRecord::Base
+  belongs_to :awon_station
+  def self.yesterday_for(aTime=Time.new); aTime - DAY_SECONDS; end
+  def self.date_sym; :date; end
+end
+
+class T403 < ActiveRecord::Base
+  belongs_to :awon_station
+  def self.yesterday_for(aTime=Time.new); aTime - DAY_SECONDS; end
+  def self.date_sym; :date; end
+end
+
+class Hyd < ActiveRecord::Base
+  def self.yesterday_for(aTime=Time.new)
+    # before 11 on any given day, look for actual yesterday HYD. after that, today's should be there
+    (aTime.hour < 11) ? aTime - DAY_SECONDS : aTime
+  end
+  def self.date_sym; :date; end
+end
+
+class AsosStation < ActiveRecord::Base
+  has_many :asos_data
+end
+
+class AsosDatum < ActiveRecord::Base
+  belongs_to :asos_station
+  def self.yesterday_for(aTime=Time.new); aTime - DAY_SECONDS; end
+  def self.date_sym; :date; end
+end
+
+class WiMnDAveTAir < ActiveRecord::Base
+  def self.yesterday_for(aTime=Time.new); aTime - DAY_SECONDS; end
+  def self.date_sym; :dateStamp; end
+end
+  
+class WiMnDAveVapr < ActiveRecord::Base
+  def self.yesterday_for(aTime=Time.new); aTime - DAY_SECONDS; end
+  def self.date_sym; :dateStamp; end
+end
+  
+class WiMnDMaxTAir < ActiveRecord::Base
+  def self.yesterday_for(aTime=Time.new); aTime - DAY_SECONDS; end
+  def self.date_sym; :dateStamp; end
+end
+
+class WiMnDMinTAir < ActiveRecord::Base
+  def self.yesterday_for(aTime=Time.new); aTime - DAY_SECONDS; end
+  def self.date_sym; :dateStamp; end
+end
+  
 class SQLChecker
-    def initialize(database='aws',server='molly.soils.wisc.edu',user='soils',pw='soils')
-        @database = Mysql.new(server,user,pw,database)
-        @results = nil
-    end
-    
-    # utility methods
-    def resultHasString(str)
-        hasIt = false
-        @results.each do |result|
-            if ((result[0] <=> str) == 0)
-                hasIt = true
-            end    
-        end
-        hasIt
-    end
-    
-    def query(query="show tables")
-        @results = @database.query(query)
-    end
-    
-    def hasYesterday(aTime,aTableName,dateColName,condition="")
-        if (aTime.nil?)
-            aTime = Time.new
-        end
-        yesterday = Time.at(aTime.to_i - 3600*24)
-        yesterYear = yesterday.year
-        yesterMonth = yesterday.mon
-        yesterMDay = yesterday.mday
-        queryDateStr = "%04d-%02d-%02d" % [yesterYear, yesterMonth, yesterMDay]
-        query = "select #{dateColName} from #{aTableName} where #{dateColName} >= \'#{queryDateStr}\'"
-        if ((condition <=> "") != 0)
-            query += "and #{condition}"
-        end
-        query(query)
-        resultHasString(queryDateStr)
-    end
-    
-    def allLastWeek(aTime,recDuration,nRecs,aTableName,dateColName,condition="")
-        if (aTime.nil?)
-            aTime = Time.new
-        end
-        yesterday = Time.at(aTime.to_i - recDuration)
-        lastWeek = Time.at(yesterday.to_i - recDuration*nRecs)
-        yesterYear = yesterday.year
-        yesterMonth = yesterday.mon
-        yesterMDay = yesterday.mday
-        lastWeekYear = lastWeek.year
-        lastWeekMonth = lastWeek.mon
-        lastWeekMDay = lastWeek.mday
-        yesterQueryDateStr = "%04d-%02d-%02d" % [yesterYear, yesterMonth, yesterMDay]
-        lastWeekQueryDateStr = "%04d-%02d-%02d" % [lastWeekYear, lastWeekMonth, lastWeekMDay]
-        query = "select #{dateColName} from #{aTableName} where #{dateColName} > \'#{lastWeekQueryDateStr}\' and #{dateColName} <= \'#{yesterQueryDateStr}\'"
-        if ((condition <=> "") != 0)
-            query += "and #{condition}"
-        end    
-        query(query)
-        @results.num_rows == nRecs
-    end
+  def initialize(database='uwex_agwx_devel',server='localhost',user='uwex_agwx_devel',pw='agem.Data')
+    @database = ActiveRecord::Base.establish_connection(
+      adapter: 'postgresql', hostname: server, username: user, password: pw, database: database
+    )
+  end
+  
+  def hasYesterday(aClass,aTime=Time.new,condition=nil)
+    yesterday = aClass.yesterday_for(aTime)
+    result = aClass.where({aClass.date_sym => yesterday})
+    condition ? result.where(condition).size > 0 : result.size > 0
+  end
+  
+  # Check that 7 daily records exist backwards from aTime for which condition is true
+  def allLastWeek(aClass,condition=nil,aTime=Time.new)
+    yesterday = aClass.yesterday_for(aTime)
+    lastWeek = yesterday - 6 * DAY_SECONDS
+    results = aClass.where({aClass.date_sym => (lastWeek..yesterday)})
+    condition ? results.where(condition).size == 7 : results.size == 7
+  end
 end
 
